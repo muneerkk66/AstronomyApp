@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct AstronomyAppApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
+	private let appFactory = AppFactory()
+
+	var body: some Scene {
+		WindowGroup {
+			AppCoordinatorView(screenFactory: ScreenFactory(appFactory: appFactory), coordinator: AppCoordinator())
+				.onAppear {
+					NetworkMonitor.shared.startMonitoring()
+				}
+		}
+	}
 }

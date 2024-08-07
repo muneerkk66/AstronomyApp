@@ -1,8 +1,8 @@
 //
-//  HostsRepository.swift
-//  PingApp
+//  PODRepository+Live.swift
+//  AstronomyApp
 //
-//  Created by Muneer K K on 13/04/2024.
+//  Created by Muneer K K on 07/08/2024.
 //
 
 import Combine
@@ -17,7 +17,7 @@ final class PODRepositoryLive: PODRepository {
 
     func loadPODData(date: Date) -> AnyPublisher<PODData, APIError> {
 		guard NetworkMonitor.shared.isConnected else { return Fail(error: APIError.connectionError).eraseToAnyPublisher()}
-		
+
         return podService.fetchImageData(date: date)
             .map { $0.toPodModel() }
             .eraseToAnyPublisher()

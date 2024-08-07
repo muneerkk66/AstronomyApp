@@ -43,6 +43,12 @@
 		083DFC612C642F8900A4A75A /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC5E2C642F8900A4A75A /* HomeCoordinator.swift */; };
 		083DFC622C642F8900A4A75A /* HomeCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC5F2C642F8900A4A75A /* HomeCoordinatorView.swift */; };
 		083DFC632C642F8900A4A75A /* HomeCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC602C642F8900A4A75A /* HomeCoordinatorProtocol.swift */; };
+		083DFC682C64311400A4A75A /* CoordinatorFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC642C64311400A4A75A /* CoordinatorFactoryProtocol.swift */; };
+		083DFC692C64311400A4A75A /* AppFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC652C64311400A4A75A /* AppFactory.swift */; };
+		083DFC6A2C64311400A4A75A /* ScreenFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC662C64311400A4A75A /* ScreenFactoryProtocol.swift */; };
+		083DFC6B2C64311500A4A75A /* ScreenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC672C64311400A4A75A /* ScreenFactory.swift */; };
+		083DFC6D2C64320000A4A75A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC6C2C64320000A4A75A /* HomeView.swift */; };
+		083DFC6F2C64322200A4A75A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC6E2C64322200A4A75A /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +108,12 @@
 		083DFC5E2C642F8900A4A75A /* HomeCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		083DFC5F2C642F8900A4A75A /* HomeCoordinatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorView.swift; sourceTree = "<group>"; };
 		083DFC602C642F8900A4A75A /* HomeCoordinatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		083DFC642C64311400A4A75A /* CoordinatorFactoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorFactoryProtocol.swift; sourceTree = "<group>"; };
+		083DFC652C64311400A4A75A /* AppFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFactory.swift; sourceTree = "<group>"; };
+		083DFC662C64311400A4A75A /* ScreenFactoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenFactoryProtocol.swift; sourceTree = "<group>"; };
+		083DFC672C64311400A4A75A /* ScreenFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenFactory.swift; sourceTree = "<group>"; };
+		083DFC6C2C64320000A4A75A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		083DFC6E2C64322200A4A75A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +215,10 @@
 		083DFC172C64096800A4A75A /* DI */ = {
 			isa = PBXGroup;
 			children = (
+				083DFC652C64311400A4A75A /* AppFactory.swift */,
+				083DFC642C64311400A4A75A /* CoordinatorFactoryProtocol.swift */,
+				083DFC672C64311400A4A75A /* ScreenFactory.swift */,
+				083DFC662C64311400A4A75A /* ScreenFactoryProtocol.swift */,
 			);
 			path = DI;
 			sourceTree = "<group>";
@@ -329,6 +345,7 @@
 		083DFC252C640A4C00A4A75A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				083DFC6E2C64322200A4A75A /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -336,6 +353,7 @@
 		083DFC262C640A5400A4A75A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				083DFC6C2C64320000A4A75A /* HomeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -507,11 +525,16 @@
 			files = (
 				083DFC472C641A1000A4A75A /* PODResponse.swift in Sources */,
 				083DFBEF2C6406E500A4A75A /* ContentView.swift in Sources */,
+				083DFC6B2C64311500A4A75A /* ScreenFactory.swift in Sources */,
 				083DFC5C2C642E1400A4A75A /* AppCoordinator.swift in Sources */,
 				083DFC3B2C640F8700A4A75A /* Parser.swift in Sources */,
+				083DFC692C64311400A4A75A /* AppFactory.swift in Sources */,
 				083DFC622C642F8900A4A75A /* HomeCoordinatorView.swift in Sources */,
 				083DFC632C642F8900A4A75A /* HomeCoordinatorProtocol.swift in Sources */,
+				083DFC6D2C64320000A4A75A /* HomeView.swift in Sources */,
 				083DFC322C640B6C00A4A75A /* AppEnvironment.swift in Sources */,
+				083DFC6A2C64311400A4A75A /* ScreenFactoryProtocol.swift in Sources */,
+				083DFC682C64311400A4A75A /* CoordinatorFactoryProtocol.swift in Sources */,
 				083DFC612C642F8900A4A75A /* HomeCoordinator.swift in Sources */,
 				083DFC402C64132E00A4A75A /* PODService.swift in Sources */,
 				083DFC4B2C64200200A4A75A /* PODRepository.swift in Sources */,
@@ -519,6 +542,7 @@
 				083DFC5D2C642E1400A4A75A /* Coordinator.swift in Sources */,
 				083DFBED2C6406E500A4A75A /* AstronomyAppApp.swift in Sources */,
 				083DFC412C64132E00A4A75A /* PODService+Live.swift in Sources */,
+				083DFC6F2C64322200A4A75A /* HomeViewModel.swift in Sources */,
 				083DFC4F2C6424A100A4A75A /* PODData.swift in Sources */,
 				083DFC332C640B6C00A4A75A /* APIRequest.swift in Sources */,
 				083DFC5A2C642E1400A4A75A /* AppCoordinatorView.swift in Sources */,
