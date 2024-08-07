@@ -16,7 +16,9 @@ final class PODRepositoryLive: PODRepository {
     }
 
     func loadPODData(date: Date) -> AnyPublisher<PODData, APIError> {
-        podService.fetchImageData(date: date)
+		guard NetworkMonitor.shared.isConnected else { return Fail(error: APIError.connectionError).eraseToAnyPublisher()}
+		
+        return podService.fetchImageData(date: date)
             .map { $0.toPodModel() }
             .eraseToAnyPublisher()
     }

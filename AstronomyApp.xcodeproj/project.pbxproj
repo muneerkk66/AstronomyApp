@@ -35,6 +35,7 @@
 		083DFC4F2C6424A100A4A75A /* PODData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC4E2C6424A100A4A75A /* PODData.swift */; };
 		083DFC512C6426E800A4A75A /* PODData+DomainMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC502C6426E800A4A75A /* PODData+DomainMapper.swift */; };
 		083DFC532C64286100A4A75A /* PODType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC522C64286100A4A75A /* PODType.swift */; };
+		083DFC552C642C9700A4A75A /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC542C642C9700A4A75A /* NetworkMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		083DFC4E2C6424A100A4A75A /* PODData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PODData.swift; sourceTree = "<group>"; };
 		083DFC502C6426E800A4A75A /* PODData+DomainMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PODData+DomainMapper.swift"; sourceTree = "<group>"; };
 		083DFC522C64286100A4A75A /* PODType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PODType.swift; sourceTree = "<group>"; };
+		083DFC542C642C9700A4A75A /* NetworkMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -334,6 +336,7 @@
 		083DFC282C640A9500A4A75A /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				083DFC542C642C9700A4A75A /* NetworkMonitor.swift */,
 				083DFC3A2C640F8700A4A75A /* Parser.swift */,
 				083DFC382C640DC000A4A75A /* Logger.swift */,
 				083DFC422C64150000A4A75A /* AppConstants.swift */,
@@ -503,6 +506,7 @@
 				083DFC342C640B6C00A4A75A /* APIClient.swift in Sources */,
 				083DFC372C640B6C00A4A75A /* APIError.swift in Sources */,
 				083DFC492C641D5700A4A75A /* PODRepository+Live.swift in Sources */,
+				083DFC552C642C9700A4A75A /* NetworkMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
