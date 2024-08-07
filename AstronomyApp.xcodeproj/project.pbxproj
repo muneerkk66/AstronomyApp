@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		083DFBED2C6406E500A4A75A /* AstronomyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFBEC2C6406E500A4A75A /* AstronomyAppApp.swift */; };
+		083DFBEF2C6406E500A4A75A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFBEE2C6406E500A4A75A /* ContentView.swift */; };
+		083DFBF12C6406E600A4A75A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 083DFBF02C6406E600A4A75A /* Assets.xcassets */; };
+		083DFBF42C6406E600A4A75A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 083DFBF32C6406E600A4A75A /* Preview Assets.xcassets */; };
+		083DFBFE2C6406E600A4A75A /* AstronomyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFBFD2C6406E600A4A75A /* AstronomyAppTests.swift */; };
+		083DFC082C6406E600A4A75A /* AstronomyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC072C6406E600A4A75A /* AstronomyAppUITests.swift */; };
+		083DFC0A2C6406E600A4A75A /* AstronomyAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC092C6406E600A4A75A /* AstronomyAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		083DFBFA2C6406E600A4A75A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 083DFBE12C6406E500A4A75A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 083DFBE82C6406E500A4A75A;
+			remoteInfo = AstronomyApp;
+		};
+		083DFC042C6406E600A4A75A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 083DFBE12C6406E500A4A75A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 083DFBE82C6406E500A4A75A;
+			remoteInfo = AstronomyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		083DFBE92C6406E500A4A75A /* AstronomyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstronomyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		083DFBEC2C6406E500A4A75A /* AstronomyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyAppApp.swift; sourceTree = "<group>"; };
+		083DFBEE2C6406E500A4A75A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		083DFBF02C6406E600A4A75A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		083DFBF32C6406E600A4A75A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		083DFBF92C6406E600A4A75A /* AstronomyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstronomyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		083DFBFD2C6406E600A4A75A /* AstronomyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyAppTests.swift; sourceTree = "<group>"; };
+		083DFC032C6406E600A4A75A /* AstronomyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstronomyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		083DFC072C6406E600A4A75A /* AstronomyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyAppUITests.swift; sourceTree = "<group>"; };
+		083DFC092C6406E600A4A75A /* AstronomyAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		083DFBE62C6406E500A4A75A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083DFBF62C6406E600A4A75A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083DFC002C6406E600A4A75A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		083DFBE02C6406E500A4A75A = {
+			isa = PBXGroup;
+			children = (
+				083DFBEB2C6406E500A4A75A /* AstronomyApp */,
+				083DFBFC2C6406E600A4A75A /* AstronomyAppTests */,
+				083DFC062C6406E600A4A75A /* AstronomyAppUITests */,
+				083DFBEA2C6406E500A4A75A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		083DFBEA2C6406E500A4A75A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				083DFBE92C6406E500A4A75A /* AstronomyApp.app */,
+				083DFBF92C6406E600A4A75A /* AstronomyAppTests.xctest */,
+				083DFC032C6406E600A4A75A /* AstronomyAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		083DFBEB2C6406E500A4A75A /* AstronomyApp */ = {
+			isa = PBXGroup;
+			children = (
+				083DFBEC2C6406E500A4A75A /* AstronomyAppApp.swift */,
+				083DFBEE2C6406E500A4A75A /* ContentView.swift */,
+				083DFBF02C6406E600A4A75A /* Assets.xcassets */,
+				083DFBF22C6406E600A4A75A /* Preview Content */,
+			);
+			path = AstronomyApp;
+			sourceTree = "<group>";
+		};
+		083DFBF22C6406E600A4A75A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				083DFBF32C6406E600A4A75A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		083DFBFC2C6406E600A4A75A /* AstronomyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				083DFBFD2C6406E600A4A75A /* AstronomyAppTests.swift */,
+			);
+			path = AstronomyAppTests;
+			sourceTree = "<group>";
+		};
+		083DFC062C6406E600A4A75A /* AstronomyAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				083DFC072C6406E600A4A75A /* AstronomyAppUITests.swift */,
+				083DFC092C6406E600A4A75A /* AstronomyAppUITestsLaunchTests.swift */,
+			);
+			path = AstronomyAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		083DFBE82C6406E500A4A75A /* AstronomyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 083DFC0D2C6406E600A4A75A /* Build configuration list for PBXNativeTarget "AstronomyApp" */;
+			buildPhases = (
+				083DFBE52C6406E500A4A75A /* Sources */,
+				083DFBE62C6406E500A4A75A /* Frameworks */,
+				083DFBE72C6406E500A4A75A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AstronomyApp;
+			productName = AstronomyApp;
+			productReference = 083DFBE92C6406E500A4A75A /* AstronomyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		083DFBF82C6406E600A4A75A /* AstronomyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 083DFC102C6406E600A4A75A /* Build configuration list for PBXNativeTarget "AstronomyAppTests" */;
+			buildPhases = (
+				083DFBF52C6406E600A4A75A /* Sources */,
+				083DFBF62C6406E600A4A75A /* Frameworks */,
+				083DFBF72C6406E600A4A75A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				083DFBFB2C6406E600A4A75A /* PBXTargetDependency */,
+			);
+			name = AstronomyAppTests;
+			productName = AstronomyAppTests;
+			productReference = 083DFBF92C6406E600A4A75A /* AstronomyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		083DFC022C6406E600A4A75A /* AstronomyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 083DFC132C6406E600A4A75A /* Build configuration list for PBXNativeTarget "AstronomyAppUITests" */;
+			buildPhases = (
+				083DFBFF2C6406E600A4A75A /* Sources */,
+				083DFC002C6406E600A4A75A /* Frameworks */,
+				083DFC012C6406E600A4A75A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				083DFC052C6406E600A4A75A /* PBXTargetDependency */,
+			);
+			name = AstronomyAppUITests;
+			productName = AstronomyAppUITests;
+			productReference = 083DFC032C6406E600A4A75A /* AstronomyAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		083DFBE12C6406E500A4A75A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					083DFBE82C6406E500A4A75A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					083DFBF82C6406E600A4A75A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 083DFBE82C6406E500A4A75A;
+					};
+					083DFC022C6406E600A4A75A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 083DFBE82C6406E500A4A75A;
+					};
+				};
+			};
+			buildConfigurationList = 083DFBE42C6406E500A4A75A /* Build configuration list for PBXProject "AstronomyApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 083DFBE02C6406E500A4A75A;
+			productRefGroup = 083DFBEA2C6406E500A4A75A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				083DFBE82C6406E500A4A75A /* AstronomyApp */,
+				083DFBF82C6406E600A4A75A /* AstronomyAppTests */,
+				083DFC022C6406E600A4A75A /* AstronomyAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		083DFBE72C6406E500A4A75A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083DFBF42C6406E600A4A75A /* Preview Assets.xcassets in Resources */,
+				083DFBF12C6406E600A4A75A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083DFBF72C6406E600A4A75A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083DFC012C6406E600A4A75A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		083DFBE52C6406E500A4A75A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083DFBEF2C6406E500A4A75A /* ContentView.swift in Sources */,
+				083DFBED2C6406E500A4A75A /* AstronomyAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083DFBF52C6406E600A4A75A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083DFBFE2C6406E600A4A75A /* AstronomyAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083DFBFF2C6406E600A4A75A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083DFC082C6406E600A4A75A /* AstronomyAppUITests.swift in Sources */,
+				083DFC0A2C6406E600A4A75A /* AstronomyAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		083DFBFB2C6406E600A4A75A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 083DFBE82C6406E500A4A75A /* AstronomyApp */;
+			targetProxy = 083DFBFA2C6406E600A4A75A /* PBXContainerItemProxy */;
+		};
+		083DFC052C6406E600A4A75A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 083DFBE82C6406E500A4A75A /* AstronomyApp */;
+			targetProxy = 083DFC042C6406E600A4A75A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		083DFC0B2C6406E600A4A75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		083DFC0C2C6406E600A4A75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		083DFC0E2C6406E600A4A75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AstronomyApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 75RJJCJZ3V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muneer.AstronomyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		083DFC0F2C6406E600A4A75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AstronomyApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 75RJJCJZ3V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muneer.AstronomyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		083DFC112C6406E600A4A75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75RJJCJZ3V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muneer.AstronomyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstronomyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AstronomyApp";
+			};
+			name = Debug;
+		};
+		083DFC122C6406E600A4A75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75RJJCJZ3V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muneer.AstronomyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstronomyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AstronomyApp";
+			};
+			name = Release;
+		};
+		083DFC142C6406E600A4A75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75RJJCJZ3V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muneer.AstronomyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AstronomyApp;
+			};
+			name = Debug;
+		};
+		083DFC152C6406E600A4A75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75RJJCJZ3V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muneer.AstronomyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AstronomyApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		083DFBE42C6406E500A4A75A /* Build configuration list for PBXProject "AstronomyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083DFC0B2C6406E600A4A75A /* Debug */,
+				083DFC0C2C6406E600A4A75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		083DFC0D2C6406E600A4A75A /* Build configuration list for PBXNativeTarget "AstronomyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083DFC0E2C6406E600A4A75A /* Debug */,
+				083DFC0F2C6406E600A4A75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		083DFC102C6406E600A4A75A /* Build configuration list for PBXNativeTarget "AstronomyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083DFC112C6406E600A4A75A /* Debug */,
+				083DFC122C6406E600A4A75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		083DFC132C6406E600A4A75A /* Build configuration list for PBXNativeTarget "AstronomyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083DFC142C6406E600A4A75A /* Debug */,
+				083DFC152C6406E600A4A75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 083DFBE12C6406E500A4A75A /* Project object */;
+}
