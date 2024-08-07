@@ -14,6 +14,16 @@
 		083DFBFE2C6406E600A4A75A /* AstronomyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFBFD2C6406E600A4A75A /* AstronomyAppTests.swift */; };
 		083DFC082C6406E600A4A75A /* AstronomyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC072C6406E600A4A75A /* AstronomyAppUITests.swift */; };
 		083DFC0A2C6406E600A4A75A /* AstronomyAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC092C6406E600A4A75A /* AstronomyAppUITestsLaunchTests.swift */; };
+		083DFC312C640B6C00A4A75A /* APIEnvironment+Live.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC2A2C640B6C00A4A75A /* APIEnvironment+Live.swift */; };
+		083DFC322C640B6C00A4A75A /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC2B2C640B6C00A4A75A /* AppEnvironment.swift */; };
+		083DFC332C640B6C00A4A75A /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC2C2C640B6C00A4A75A /* APIRequest.swift */; };
+		083DFC342C640B6C00A4A75A /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC2D2C640B6C00A4A75A /* APIClient.swift */; };
+		083DFC352C640B6C00A4A75A /* APIClient+Live.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC2E2C640B6C00A4A75A /* APIClient+Live.swift */; };
+		083DFC362C640B6C00A4A75A /* APIEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC2F2C640B6C00A4A75A /* APIEnvironment.swift */; };
+		083DFC372C640B6C00A4A75A /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC302C640B6C00A4A75A /* APIError.swift */; };
+		083DFC392C640DC000A4A75A /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC382C640DC000A4A75A /* Logger.swift */; };
+		083DFC3B2C640F8700A4A75A /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC3A2C640F8700A4A75A /* Parser.swift */; };
+		083DFC3D2C640FED00A4A75A /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 083DFC3C2C640FED00A4A75A /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,16 @@
 		083DFC032C6406E600A4A75A /* AstronomyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstronomyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		083DFC072C6406E600A4A75A /* AstronomyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyAppUITests.swift; sourceTree = "<group>"; };
 		083DFC092C6406E600A4A75A /* AstronomyAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		083DFC2A2C640B6C00A4A75A /* APIEnvironment+Live.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APIEnvironment+Live.swift"; sourceTree = "<group>"; };
+		083DFC2B2C640B6C00A4A75A /* AppEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		083DFC2C2C640B6C00A4A75A /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		083DFC2D2C640B6C00A4A75A /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		083DFC2E2C640B6C00A4A75A /* APIClient+Live.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APIClient+Live.swift"; sourceTree = "<group>"; };
+		083DFC2F2C640B6C00A4A75A /* APIEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIEnvironment.swift; sourceTree = "<group>"; };
+		083DFC302C640B6C00A4A75A /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		083DFC382C640DC000A4A75A /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		083DFC3A2C640F8700A4A75A /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		083DFC3C2C640FED00A4A75A /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +114,13 @@
 		083DFBEB2C6406E500A4A75A /* AstronomyApp */ = {
 			isa = PBXGroup;
 			children = (
+				083DFC162C64093400A4A75A /* Application */,
+				083DFC182C64097100A4A75A /* Data */,
+				083DFC1C2C64099C00A4A75A /* Domain */,
+				083DFC202C6409EC00A4A75A /* Presenation */,
+				083DFC272C640A8400A4A75A /* API */,
+				083DFC282C640A9500A4A75A /* Utils */,
+				083DFC292C640AB500A4A75A /* Resources */,
 				083DFBEC2C6406E500A4A75A /* AstronomyAppApp.swift */,
 				083DFBEE2C6406E500A4A75A /* ContentView.swift */,
 				083DFBF02C6406E600A4A75A /* Assets.xcassets */,
@@ -125,6 +152,169 @@
 				083DFC092C6406E600A4A75A /* AstronomyAppUITestsLaunchTests.swift */,
 			);
 			path = AstronomyAppUITests;
+			sourceTree = "<group>";
+		};
+		083DFC162C64093400A4A75A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				083DFC172C64096800A4A75A /* DI */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		083DFC172C64096800A4A75A /* DI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		083DFC182C64097100A4A75A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				083DFC1B2C64098F00A4A75A /* Repositories */,
+				083DFC1A2C64098700A4A75A /* Network */,
+				083DFC192C64098000A4A75A /* Mapper */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		083DFC192C64098000A4A75A /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		083DFC1A2C64098700A4A75A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		083DFC1B2C64098F00A4A75A /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		083DFC1C2C64099C00A4A75A /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				083DFC1F2C6409BE00A4A75A /* UseCases */,
+				083DFC1E2C6409B100A4A75A /* Entities */,
+				083DFC1D2C6409A800A4A75A /* Interfaces */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		083DFC1D2C6409A800A4A75A /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		083DFC1E2C6409B100A4A75A /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		083DFC1F2C6409BE00A4A75A /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		083DFC202C6409EC00A4A75A /* Presenation */ = {
+			isa = PBXGroup;
+			children = (
+				083DFC222C640A1000A4A75A /* Screens */,
+				083DFC212C6409FD00A4A75A /* AppCoordinator */,
+			);
+			path = Presenation;
+			sourceTree = "<group>";
+		};
+		083DFC212C6409FD00A4A75A /* AppCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppCoordinator;
+			sourceTree = "<group>";
+		};
+		083DFC222C640A1000A4A75A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				083DFC232C640A2600A4A75A /* Home */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		083DFC232C640A2600A4A75A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				083DFC262C640A5400A4A75A /* View */,
+				083DFC252C640A4C00A4A75A /* ViewModel */,
+				083DFC242C640A3800A4A75A /* Coordinator */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		083DFC242C640A3800A4A75A /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		083DFC252C640A4C00A4A75A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		083DFC262C640A5400A4A75A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		083DFC272C640A8400A4A75A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				083DFC2D2C640B6C00A4A75A /* APIClient.swift */,
+				083DFC2E2C640B6C00A4A75A /* APIClient+Live.swift */,
+				083DFC2F2C640B6C00A4A75A /* APIEnvironment.swift */,
+				083DFC2A2C640B6C00A4A75A /* APIEnvironment+Live.swift */,
+				083DFC302C640B6C00A4A75A /* APIError.swift */,
+				083DFC2C2C640B6C00A4A75A /* APIRequest.swift */,
+				083DFC2B2C640B6C00A4A75A /* AppEnvironment.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		083DFC282C640A9500A4A75A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				083DFC3A2C640F8700A4A75A /* Parser.swift */,
+				083DFC382C640DC000A4A75A /* Logger.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		083DFC292C640AB500A4A75A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				083DFC3C2C640FED00A4A75A /* Localizable.xcstrings */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +423,7 @@
 			files = (
 				083DFBF42C6406E600A4A75A /* Preview Assets.xcassets in Resources */,
 				083DFBF12C6406E600A4A75A /* Assets.xcassets in Resources */,
+				083DFC3D2C640FED00A4A75A /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +449,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				083DFBEF2C6406E500A4A75A /* ContentView.swift in Sources */,
+				083DFC3B2C640F8700A4A75A /* Parser.swift in Sources */,
+				083DFC322C640B6C00A4A75A /* AppEnvironment.swift in Sources */,
+				083DFC352C640B6C00A4A75A /* APIClient+Live.swift in Sources */,
 				083DFBED2C6406E500A4A75A /* AstronomyAppApp.swift in Sources */,
+				083DFC332C640B6C00A4A75A /* APIRequest.swift in Sources */,
+				083DFC392C640DC000A4A75A /* Logger.swift in Sources */,
+				083DFC312C640B6C00A4A75A /* APIEnvironment+Live.swift in Sources */,
+				083DFC362C640B6C00A4A75A /* APIEnvironment.swift in Sources */,
+				083DFC342C640B6C00A4A75A /* APIClient.swift in Sources */,
+				083DFC372C640B6C00A4A75A /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +630,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +660,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
