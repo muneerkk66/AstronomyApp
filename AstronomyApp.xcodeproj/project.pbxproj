@@ -36,6 +36,13 @@
 		083DFC512C6426E800A4A75A /* PODData+DomainMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC502C6426E800A4A75A /* PODData+DomainMapper.swift */; };
 		083DFC532C64286100A4A75A /* PODType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC522C64286100A4A75A /* PODType.swift */; };
 		083DFC552C642C9700A4A75A /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC542C642C9700A4A75A /* NetworkMonitor.swift */; };
+		083DFC5A2C642E1400A4A75A /* AppCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC562C642E1400A4A75A /* AppCoordinatorView.swift */; };
+		083DFC5B2C642E1400A4A75A /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC572C642E1400A4A75A /* Routable.swift */; };
+		083DFC5C2C642E1400A4A75A /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC582C642E1400A4A75A /* AppCoordinator.swift */; };
+		083DFC5D2C642E1400A4A75A /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC592C642E1400A4A75A /* Coordinator.swift */; };
+		083DFC612C642F8900A4A75A /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC5E2C642F8900A4A75A /* HomeCoordinator.swift */; };
+		083DFC622C642F8900A4A75A /* HomeCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC5F2C642F8900A4A75A /* HomeCoordinatorView.swift */; };
+		083DFC632C642F8900A4A75A /* HomeCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC602C642F8900A4A75A /* HomeCoordinatorProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +95,13 @@
 		083DFC502C6426E800A4A75A /* PODData+DomainMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PODData+DomainMapper.swift"; sourceTree = "<group>"; };
 		083DFC522C64286100A4A75A /* PODType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PODType.swift; sourceTree = "<group>"; };
 		083DFC542C642C9700A4A75A /* NetworkMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		083DFC562C642E1400A4A75A /* AppCoordinatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinatorView.swift; sourceTree = "<group>"; };
+		083DFC572C642E1400A4A75A /* Routable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
+		083DFC582C642E1400A4A75A /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		083DFC592C642E1400A4A75A /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		083DFC5E2C642F8900A4A75A /* HomeCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		083DFC5F2C642F8900A4A75A /* HomeCoordinatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorView.swift; sourceTree = "<group>"; };
+		083DFC602C642F8900A4A75A /* HomeCoordinatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -276,6 +290,10 @@
 		083DFC212C6409FD00A4A75A /* AppCoordinator */ = {
 			isa = PBXGroup;
 			children = (
+				083DFC582C642E1400A4A75A /* AppCoordinator.swift */,
+				083DFC562C642E1400A4A75A /* AppCoordinatorView.swift */,
+				083DFC592C642E1400A4A75A /* Coordinator.swift */,
+				083DFC572C642E1400A4A75A /* Routable.swift */,
 			);
 			path = AppCoordinator;
 			sourceTree = "<group>";
@@ -301,6 +319,9 @@
 		083DFC242C640A3800A4A75A /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				083DFC5E2C642F8900A4A75A /* HomeCoordinator.swift */,
+				083DFC602C642F8900A4A75A /* HomeCoordinatorProtocol.swift */,
+				083DFC5F2C642F8900A4A75A /* HomeCoordinatorView.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -486,15 +507,21 @@
 			files = (
 				083DFC472C641A1000A4A75A /* PODResponse.swift in Sources */,
 				083DFBEF2C6406E500A4A75A /* ContentView.swift in Sources */,
+				083DFC5C2C642E1400A4A75A /* AppCoordinator.swift in Sources */,
 				083DFC3B2C640F8700A4A75A /* Parser.swift in Sources */,
+				083DFC622C642F8900A4A75A /* HomeCoordinatorView.swift in Sources */,
+				083DFC632C642F8900A4A75A /* HomeCoordinatorProtocol.swift in Sources */,
 				083DFC322C640B6C00A4A75A /* AppEnvironment.swift in Sources */,
+				083DFC612C642F8900A4A75A /* HomeCoordinator.swift in Sources */,
 				083DFC402C64132E00A4A75A /* PODService.swift in Sources */,
 				083DFC4B2C64200200A4A75A /* PODRepository.swift in Sources */,
 				083DFC352C640B6C00A4A75A /* APIClient+Live.swift in Sources */,
+				083DFC5D2C642E1400A4A75A /* Coordinator.swift in Sources */,
 				083DFBED2C6406E500A4A75A /* AstronomyAppApp.swift in Sources */,
 				083DFC412C64132E00A4A75A /* PODService+Live.swift in Sources */,
 				083DFC4F2C6424A100A4A75A /* PODData.swift in Sources */,
 				083DFC332C640B6C00A4A75A /* APIRequest.swift in Sources */,
+				083DFC5A2C642E1400A4A75A /* AppCoordinatorView.swift in Sources */,
 				083DFC532C64286100A4A75A /* PODType.swift in Sources */,
 				083DFC392C640DC000A4A75A /* Logger.swift in Sources */,
 				083DFC4D2C6423AE00A4A75A /* FetchPODUseCase.swift in Sources */,
@@ -507,6 +534,7 @@
 				083DFC372C640B6C00A4A75A /* APIError.swift in Sources */,
 				083DFC492C641D5700A4A75A /* PODRepository+Live.swift in Sources */,
 				083DFC552C642C9700A4A75A /* NetworkMonitor.swift in Sources */,
+				083DFC5B2C642E1400A4A75A /* Routable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
