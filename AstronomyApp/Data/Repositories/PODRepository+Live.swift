@@ -15,8 +15,9 @@ final class PODRepositoryLive: PODRepository {
         self.podService = podService
     }
 
-    func loadImageData(date: Date) -> AnyPublisher<PODResponse, APIError> {
-        return podService
-            .fetchImageData(date: date)
+    func loadPODData(date: Date) -> AnyPublisher<PODData, APIError> {
+        podService.fetchImageData(date: date)
+            .map { $0.toPodModel() }
+            .eraseToAnyPublisher()
     }
 }

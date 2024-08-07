@@ -9,5 +9,5 @@ import Combine
 import Foundation
 
 protocol PODRepository {
-    func loadImageData(date: Date) -> AnyPublisher<PODResponse, APIError>
+    func loadPODData(date: Date) -> AnyPublisher<PODData, APIError>
 }

@@ -31,6 +31,10 @@
 		083DFC472C641A1000A4A75A /* PODResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC462C641A1000A4A75A /* PODResponse.swift */; };
 		083DFC492C641D5700A4A75A /* PODRepository+Live.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC482C641D5700A4A75A /* PODRepository+Live.swift */; };
 		083DFC4B2C64200200A4A75A /* PODRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC4A2C64200200A4A75A /* PODRepository.swift */; };
+		083DFC4D2C6423AE00A4A75A /* FetchPODUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC4C2C6423AE00A4A75A /* FetchPODUseCase.swift */; };
+		083DFC4F2C6424A100A4A75A /* PODData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC4E2C6424A100A4A75A /* PODData.swift */; };
+		083DFC512C6426E800A4A75A /* PODData+DomainMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC502C6426E800A4A75A /* PODData+DomainMapper.swift */; };
+		083DFC532C64286100A4A75A /* PODType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC522C64286100A4A75A /* PODType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +82,10 @@
 		083DFC462C641A1000A4A75A /* PODResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PODResponse.swift; sourceTree = "<group>"; };
 		083DFC482C641D5700A4A75A /* PODRepository+Live.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PODRepository+Live.swift"; sourceTree = "<group>"; };
 		083DFC4A2C64200200A4A75A /* PODRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PODRepository.swift; sourceTree = "<group>"; };
+		083DFC4C2C6423AE00A4A75A /* FetchPODUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchPODUseCase.swift; sourceTree = "<group>"; };
+		083DFC4E2C6424A100A4A75A /* PODData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PODData.swift; sourceTree = "<group>"; };
+		083DFC502C6426E800A4A75A /* PODData+DomainMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PODData+DomainMapper.swift"; sourceTree = "<group>"; };
+		083DFC522C64286100A4A75A /* PODType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PODType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				083DFC462C641A1000A4A75A /* PODResponse.swift */,
+				083DFC502C6426E800A4A75A /* PODData+DomainMapper.swift */,
 			);
 			path = Mapper;
 			sourceTree = "<group>";
@@ -239,6 +248,8 @@
 		083DFC1E2C6409B100A4A75A /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				083DFC4E2C6424A100A4A75A /* PODData.swift */,
+				083DFC522C64286100A4A75A /* PODType.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -246,6 +257,7 @@
 		083DFC1F2C6409BE00A4A75A /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
+				083DFC4C2C6423AE00A4A75A /* FetchPODUseCase.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -478,9 +490,13 @@
 				083DFC352C640B6C00A4A75A /* APIClient+Live.swift in Sources */,
 				083DFBED2C6406E500A4A75A /* AstronomyAppApp.swift in Sources */,
 				083DFC412C64132E00A4A75A /* PODService+Live.swift in Sources */,
+				083DFC4F2C6424A100A4A75A /* PODData.swift in Sources */,
 				083DFC332C640B6C00A4A75A /* APIRequest.swift in Sources */,
+				083DFC532C64286100A4A75A /* PODType.swift in Sources */,
 				083DFC392C640DC000A4A75A /* Logger.swift in Sources */,
+				083DFC4D2C6423AE00A4A75A /* FetchPODUseCase.swift in Sources */,
 				083DFC312C640B6C00A4A75A /* APIEnvironment+Live.swift in Sources */,
+				083DFC512C6426E800A4A75A /* PODData+DomainMapper.swift in Sources */,
 				083DFC362C640B6C00A4A75A /* APIEnvironment.swift in Sources */,
 				083DFC432C64150000A4A75A /* AppConstants.swift in Sources */,
 				083DFC452C6417C100A4A75A /* Formatter.swift in Sources */,
