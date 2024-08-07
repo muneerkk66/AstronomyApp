@@ -57,6 +57,7 @@ extension APIRequest {
         }
         components.path = path.isEmpty ? "" : components.path + path.replacingOccurrences(of: " ", with: "%20")
         components.queryItems = query?.compactMap { URLQueryItem(name: $0.0, value: $0.1) }
+		components.appendBaseQueryItems(with: environment)
 
         guard let url = components.url else {
             throw URLError(.unsupportedURL)
@@ -79,4 +80,13 @@ extension APIRequest {
         }
         return urlRequest
     }
+}
+
+
+extension URLComponents {
+	mutating func appendBaseQueryItems(with environment: AppEnvironment) {
+		queryItems = (queryItems ?? []) + [
+			URLQueryItem(name: AppConstants.APODQuery.apikey, value: environment.apiKey)
+		]
+	}
 }

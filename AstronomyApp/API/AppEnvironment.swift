@@ -32,11 +32,11 @@ extension AppEnvironment {
 	var apiKey: String {
 		switch self {
 		case .development:
-			return "aTAy3b7YMPVC947YxKYPd9DsD58MxZ8wuvHz4vRQ"
+			return "DEMO_KEY"
 		case .qa:
-			return "aTAy3b7YMPVC947YxKYPd9DsD58MxZ8wuvHz4vRQ"
+			return "DEMO_KEY"
 		case .production:
-			return "aTAy3b7YMPVC947YxKYPd9DsD58MxZ8wuvHz4vRQ"
+			return "DEMO_KEY"
 		}
 	}
 }
