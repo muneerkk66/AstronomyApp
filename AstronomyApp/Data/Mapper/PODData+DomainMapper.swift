@@ -18,3 +18,17 @@ extension PODResponse {
         )
     }
 }
+
+extension PODHistory {
+	func toPodModel() -> PODData {
+		let podType = PODType.from(mediaType: mediaType.orEmpty)
+		return PODData(
+			title: title.orEmpty,
+			description: explanation.orEmpty,
+			type: podType,
+			url: url.orEmpty,
+			date: date.orEmpty
+		)
+	}
+}
+

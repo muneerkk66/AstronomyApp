@@ -29,6 +29,8 @@ final class PODServiceLive {
 extension PODServiceLive: PODService {
     func fetchImageData(date: Date
     ) -> AnyPublisher<PODResponse, APIError> {
+
+		//return Fail(error: APIError.applicationError).eraseToAnyPublisher()
         let params = [AppConstants.APODQuery.date: date.dateOnly]
 
         let fetchRequest = APIRequest<PODResponse>(

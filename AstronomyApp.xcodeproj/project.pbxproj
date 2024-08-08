@@ -54,6 +54,11 @@
 		083DFC792C64C74800A4A75A /* LazyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC782C64C74800A4A75A /* LazyImageView.swift */; };
 		083DFC7B2C64C7F900A4A75A /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC7A2C64C7F900A4A75A /* String+Extension.swift */; };
 		083DFC7E2C64DD8500A4A75A /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC7D2C64DD8500A4A75A /* DatePickerView.swift */; };
+		083DFC822C64FA2D00A4A75A /* AstronomyDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC802C64FA2D00A4A75A /* AstronomyDB.xcdatamodeld */; };
+		083DFC842C64FA8500A4A75A /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC832C64FA8500A4A75A /* PersistenceController.swift */; };
+		083DFC932C64FD4F00A4A75A /* PODLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC922C64FD4F00A4A75A /* PODLocalDataSource.swift */; };
+		083DFC9E2C651C9B00A4A75A /* PODHistory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC9C2C651C9B00A4A75A /* PODHistory+CoreDataClass.swift */; };
+		083DFC9F2C651C9B00A4A75A /* PODHistory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC9D2C651C9B00A4A75A /* PODHistory+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +130,11 @@
 		083DFC7A2C64C7F900A4A75A /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		083DFC7C2C64CB4600A4A75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		083DFC7D2C64DD8500A4A75A /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		083DFC812C64FA2D00A4A75A /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		083DFC832C64FA8500A4A75A /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		083DFC922C64FD4F00A4A75A /* PODLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PODLocalDataSource.swift; sourceTree = "<group>"; };
+		083DFC9C2C651C9B00A4A75A /* PODHistory+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PODHistory+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		083DFC9D2C651C9B00A4A75A /* PODHistory+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PODHistory+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +247,8 @@
 		083DFC182C64097100A4A75A /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				083DFC912C64FD3000A4A75A /* DataSource */,
+				083DFC7F2C64F9EF00A4A75A /* Persistence */,
 				083DFC1B2C64098F00A4A75A /* Repositories */,
 				083DFC1A2C64098700A4A75A /* Network */,
 				083DFC192C64098000A4A75A /* Mapper */,
@@ -425,6 +437,25 @@
 			path = ReusableViews;
 			sourceTree = "<group>";
 		};
+		083DFC7F2C64F9EF00A4A75A /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				083DFC9C2C651C9B00A4A75A /* PODHistory+CoreDataClass.swift */,
+				083DFC9D2C651C9B00A4A75A /* PODHistory+CoreDataProperties.swift */,
+				083DFC802C64FA2D00A4A75A /* AstronomyDB.xcdatamodeld */,
+				083DFC832C64FA8500A4A75A /* PersistenceController.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		083DFC912C64FD3000A4A75A /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				083DFC922C64FD4F00A4A75A /* PODLocalDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -560,6 +591,7 @@
 				083DFC6B2C64311500A4A75A /* ScreenFactory.swift in Sources */,
 				083DFC742C64C0D300A4A75A /* HomeViewState.swift in Sources */,
 				083DFC5C2C642E1400A4A75A /* AppCoordinator.swift in Sources */,
+				083DFC842C64FA8500A4A75A /* PersistenceController.swift in Sources */,
 				083DFC3B2C640F8700A4A75A /* Parser.swift in Sources */,
 				083DFC722C64C07700A4A75A /* APODView.swift in Sources */,
 				083DFC692C64311400A4A75A /* AppFactory.swift in Sources */,
@@ -573,12 +605,15 @@
 				083DFC612C642F8900A4A75A /* HomeCoordinator.swift in Sources */,
 				083DFC402C64132E00A4A75A /* PODService.swift in Sources */,
 				083DFC7E2C64DD8500A4A75A /* DatePickerView.swift in Sources */,
+				083DFC9E2C651C9B00A4A75A /* PODHistory+CoreDataClass.swift in Sources */,
+				083DFC822C64FA2D00A4A75A /* AstronomyDB.xcdatamodeld in Sources */,
 				083DFC4B2C64200200A4A75A /* PODRepository.swift in Sources */,
 				083DFC352C640B6C00A4A75A /* APIClient+Live.swift in Sources */,
 				083DFC5D2C642E1400A4A75A /* Coordinator.swift in Sources */,
 				083DFC792C64C74800A4A75A /* LazyImageView.swift in Sources */,
 				083DFBED2C6406E500A4A75A /* AstronomyAppApp.swift in Sources */,
 				083DFC412C64132E00A4A75A /* PODService+Live.swift in Sources */,
+				083DFC932C64FD4F00A4A75A /* PODLocalDataSource.swift in Sources */,
 				083DFC6F2C64322200A4A75A /* HomeViewModel.swift in Sources */,
 				083DFC772C64C10200A4A75A /* ErrorView.swift in Sources */,
 				083DFC4F2C6424A100A4A75A /* PODData.swift in Sources */,
@@ -586,6 +621,7 @@
 				083DFC5A2C642E1400A4A75A /* AppCoordinatorView.swift in Sources */,
 				083DFC532C64286100A4A75A /* PODType.swift in Sources */,
 				083DFC392C640DC000A4A75A /* Logger.swift in Sources */,
+				083DFC9F2C651C9B00A4A75A /* PODHistory+CoreDataProperties.swift in Sources */,
 				083DFC4D2C6423AE00A4A75A /* FetchPODUseCase.swift in Sources */,
 				083DFC312C640B6C00A4A75A /* APIEnvironment+Live.swift in Sources */,
 				083DFC512C6426E800A4A75A /* PODData+DomainMapper.swift in Sources */,
@@ -930,6 +966,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		083DFC802C64FA2D00A4A75A /* AstronomyDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				083DFC812C64FA2D00A4A75A /* Model.xcdatamodel */,
+			);
+			currentVersion = 083DFC812C64FA2D00A4A75A /* Model.xcdatamodel */;
+			path = AstronomyDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 083DFBE12C6406E500A4A75A /* Project object */;
 }
