@@ -1,6 +1,16 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "action.retry" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retry"
+          }
+        }
+      }
+    },
     "apiError.application" : {
       "comment" : "API common error",
       "extractionState" : "manual",
@@ -26,10 +36,27 @@
       }
     },
     "Hello, world!" : {
-
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hello, world!"
+          }
+        }
+      }
     },
-    "Hello, World!" : {
-
+    "tab.home.title" : {
+      "comment" : "Home  Tab Title",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Home"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"

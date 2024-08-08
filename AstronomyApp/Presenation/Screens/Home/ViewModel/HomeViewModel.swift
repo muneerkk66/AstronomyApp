@@ -47,6 +47,7 @@ final class HomeViewModel: ObservableObject {
                     viewState = .error(error.localizedDescription)
                     break
                 case .finished:
+                    viewState = .finished
                     break
                 }
             }, receiveValue: { [weak self] results in

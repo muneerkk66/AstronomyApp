@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		083DFBED2C6406E500A4A75A /* AstronomyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFBEC2C6406E500A4A75A /* AstronomyAppApp.swift */; };
-		083DFBEF2C6406E500A4A75A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFBEE2C6406E500A4A75A /* ContentView.swift */; };
 		083DFBF12C6406E600A4A75A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 083DFBF02C6406E600A4A75A /* Assets.xcassets */; };
 		083DFBF42C6406E600A4A75A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 083DFBF32C6406E600A4A75A /* Preview Assets.xcassets */; };
 		083DFBFE2C6406E600A4A75A /* AstronomyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFBFD2C6406E600A4A75A /* AstronomyAppTests.swift */; };
@@ -49,6 +48,11 @@
 		083DFC6B2C64311500A4A75A /* ScreenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC672C64311400A4A75A /* ScreenFactory.swift */; };
 		083DFC6D2C64320000A4A75A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC6C2C64320000A4A75A /* HomeView.swift */; };
 		083DFC6F2C64322200A4A75A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC6E2C64322200A4A75A /* HomeViewModel.swift */; };
+		083DFC722C64C07700A4A75A /* APODView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC712C64C07700A4A75A /* APODView.swift */; };
+		083DFC742C64C0D300A4A75A /* HomeViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC732C64C0D300A4A75A /* HomeViewState.swift */; };
+		083DFC772C64C10200A4A75A /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC762C64C10200A4A75A /* ErrorView.swift */; };
+		083DFC792C64C74800A4A75A /* LazyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC782C64C74800A4A75A /* LazyImageView.swift */; };
+		083DFC7B2C64C7F900A4A75A /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC7A2C64C7F900A4A75A /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,7 +75,6 @@
 /* Begin PBXFileReference section */
 		083DFBE92C6406E500A4A75A /* AstronomyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstronomyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		083DFBEC2C6406E500A4A75A /* AstronomyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyAppApp.swift; sourceTree = "<group>"; };
-		083DFBEE2C6406E500A4A75A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		083DFBF02C6406E600A4A75A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		083DFBF32C6406E600A4A75A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		083DFBF92C6406E600A4A75A /* AstronomyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstronomyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +117,12 @@
 		083DFC672C64311400A4A75A /* ScreenFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenFactory.swift; sourceTree = "<group>"; };
 		083DFC6C2C64320000A4A75A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		083DFC6E2C64322200A4A75A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		083DFC712C64C07700A4A75A /* APODView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODView.swift; sourceTree = "<group>"; };
+		083DFC732C64C0D300A4A75A /* HomeViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewState.swift; sourceTree = "<group>"; };
+		083DFC762C64C10200A4A75A /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		083DFC782C64C74800A4A75A /* LazyImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyImageView.swift; sourceTree = "<group>"; };
+		083DFC7A2C64C7F900A4A75A /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		083DFC7C2C64CB4600A4A75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +173,7 @@
 		083DFBEB2C6406E500A4A75A /* AstronomyApp */ = {
 			isa = PBXGroup;
 			children = (
+				083DFC7C2C64CB4600A4A75A /* Info.plist */,
 				083DFC162C64093400A4A75A /* Application */,
 				083DFC182C64097100A4A75A /* Data */,
 				083DFC1C2C64099C00A4A75A /* Domain */,
@@ -172,7 +182,6 @@
 				083DFC282C640A9500A4A75A /* Utils */,
 				083DFC292C640AB500A4A75A /* Resources */,
 				083DFBEC2C6406E500A4A75A /* AstronomyAppApp.swift */,
-				083DFBEE2C6406E500A4A75A /* ContentView.swift */,
 				083DFBF02C6406E600A4A75A /* Assets.xcassets */,
 				083DFBF22C6406E600A4A75A /* Preview Content */,
 			);
@@ -317,6 +326,7 @@
 		083DFC222C640A1000A4A75A /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				083DFC752C64C0E600A4A75A /* ReusableViews */,
 				083DFC232C640A2600A4A75A /* Home */,
 			);
 			path = Screens;
@@ -325,6 +335,7 @@
 		083DFC232C640A2600A4A75A /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				083DFC702C64C03D00A4A75A /* Components */,
 				083DFC262C640A5400A4A75A /* View */,
 				083DFC252C640A4C00A4A75A /* ViewModel */,
 				083DFC242C640A3800A4A75A /* Coordinator */,
@@ -354,6 +365,7 @@
 			isa = PBXGroup;
 			children = (
 				083DFC6C2C64320000A4A75A /* HomeView.swift */,
+				083DFC732C64C0D300A4A75A /* HomeViewState.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -380,6 +392,7 @@
 				083DFC382C640DC000A4A75A /* Logger.swift */,
 				083DFC422C64150000A4A75A /* AppConstants.swift */,
 				083DFC442C6417C100A4A75A /* Formatter.swift */,
+				083DFC7A2C64C7F900A4A75A /* String+Extension.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -390,6 +403,23 @@
 				083DFC3C2C640FED00A4A75A /* Localizable.xcstrings */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		083DFC702C64C03D00A4A75A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				083DFC712C64C07700A4A75A /* APODView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		083DFC752C64C0E600A4A75A /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				083DFC762C64C10200A4A75A /* ErrorView.swift */,
+				083DFC782C64C74800A4A75A /* LazyImageView.swift */,
+			);
+			path = ReusableViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -524,12 +554,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				083DFC472C641A1000A4A75A /* PODResponse.swift in Sources */,
-				083DFBEF2C6406E500A4A75A /* ContentView.swift in Sources */,
 				083DFC6B2C64311500A4A75A /* ScreenFactory.swift in Sources */,
+				083DFC742C64C0D300A4A75A /* HomeViewState.swift in Sources */,
 				083DFC5C2C642E1400A4A75A /* AppCoordinator.swift in Sources */,
 				083DFC3B2C640F8700A4A75A /* Parser.swift in Sources */,
+				083DFC722C64C07700A4A75A /* APODView.swift in Sources */,
 				083DFC692C64311400A4A75A /* AppFactory.swift in Sources */,
 				083DFC622C642F8900A4A75A /* HomeCoordinatorView.swift in Sources */,
+				083DFC7B2C64C7F900A4A75A /* String+Extension.swift in Sources */,
 				083DFC632C642F8900A4A75A /* HomeCoordinatorProtocol.swift in Sources */,
 				083DFC6D2C64320000A4A75A /* HomeView.swift in Sources */,
 				083DFC322C640B6C00A4A75A /* AppEnvironment.swift in Sources */,
@@ -540,9 +572,11 @@
 				083DFC4B2C64200200A4A75A /* PODRepository.swift in Sources */,
 				083DFC352C640B6C00A4A75A /* APIClient+Live.swift in Sources */,
 				083DFC5D2C642E1400A4A75A /* Coordinator.swift in Sources */,
+				083DFC792C64C74800A4A75A /* LazyImageView.swift in Sources */,
 				083DFBED2C6406E500A4A75A /* AstronomyAppApp.swift in Sources */,
 				083DFC412C64132E00A4A75A /* PODService+Live.swift in Sources */,
 				083DFC6F2C64322200A4A75A /* HomeViewModel.swift in Sources */,
+				083DFC772C64C10200A4A75A /* ErrorView.swift in Sources */,
 				083DFC4F2C6424A100A4A75A /* PODData.swift in Sources */,
 				083DFC332C640B6C00A4A75A /* APIRequest.swift in Sources */,
 				083DFC5A2C642E1400A4A75A /* AppCoordinatorView.swift in Sources */,
@@ -725,6 +759,7 @@
 				DEVELOPMENT_TEAM = 75RJJCJZ3V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AstronomyApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -755,6 +790,7 @@
 				DEVELOPMENT_TEAM = 75RJJCJZ3V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AstronomyApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

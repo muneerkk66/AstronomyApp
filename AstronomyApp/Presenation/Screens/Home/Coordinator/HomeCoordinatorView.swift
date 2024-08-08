@@ -19,10 +19,15 @@ struct HomeCoordinatorView: View {
 
     var body: some View {
         NavigationStack(path: $coordinator.navigationPath) {
-            factory.makeHomeView(coordinator: coordinator)
-                .navigationDestination(for: HomeCoordinator.Screen.self) {
-                    destination($0)
-                }
+            TabView {
+                factory.makeHomeView(coordinator: coordinator)
+                    .navigationDestination(for: HomeCoordinator.Screen.self) {
+                        destination($0)
+                    }.tabItem {
+                        Label("tab.home.title", systemImage: "house")
+                    }
+
+			}
         }
     }
 

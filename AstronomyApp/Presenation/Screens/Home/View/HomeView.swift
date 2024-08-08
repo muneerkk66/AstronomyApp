@@ -8,12 +8,29 @@
 import SwiftUI
 
 struct HomeView: View {
-	@StateObject var viewModel: HomeViewModel
+    @StateObject var viewModel: HomeViewModel
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        sceneView.onAppear {
+            viewModel.handle(.loadPODData)
+        }.environmentObject(viewModel)
+    }
+
+    @ViewBuilder
+    private var sceneView: some View {
+        switch viewModel.viewState {
+        case .finished:
+            APODView()
+        case .isLoading, .idle:
+            ProgressView()
+        case let .error(error):
+            ErrorView(errorMessage: error) {
+                viewModel.handle(.retryLoadPODData)
+            }
+        }
     }
 }
 
 #Preview {
-	HomeView(viewModel: HomeViewModel(coordinator: HomeCoordinator(), fetchPODUseCase: AppFactory().makeFetchPODDataUseCase()))
+    HomeView(viewModel: HomeViewModel(coordinator: HomeCoordinator(), fetchPODUseCase: AppFactory().makeFetchPODDataUseCase()))
 }

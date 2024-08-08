@@ -26,7 +26,6 @@ struct AppCoordinatorView: View {
         switch coordinator.state {
         case .idle:
             EmptyView()
-
         case .main:
             HomeCoordinatorView(HomeCoordinator(), factory: screenFactory)
         }
