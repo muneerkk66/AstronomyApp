@@ -10,36 +10,42 @@ import SwiftUI
 
 struct LazyImageView: View {
     let urlString: String?
-
+    @State private var isImageLoaded = false
     var body: some View {
         if let urlString = urlString, let url = URL(string: urlString) {
             AsyncImage(url: url) { phase in
                 switch phase {
-                case .empty:
-                    ProgressView()
-                        .frame(maxWidth: .infinity)
                 case let .success(image):
                     image
                         .resizable()
+                        .cornerRadius(25)
                         .aspectRatio(contentMode: .fit)
                         .frame(maxWidth: .infinity, maxHeight: .infinity)
-                        .clipped()
-                case .failure:
+                        .opacity(isImageLoaded ? 1.0 : 0.0)
+                        .onAppear {
+                            withAnimation(.easeInOut(duration: 1.0)) {
+                                isImageLoaded = true
+                            }
+                        }
+                default:
                     Image(systemName: "photo")
                         .resizable()
-                        .aspectRatio(contentMode: .fill)
-                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                        .aspectRatio(contentMode: .fit)
                         .clipped()
-                @unknown default:
-                    EmptyView()
+                        .foregroundColor(Color.gray.opacity(0.5))
+                        .onAppear {
+                            withAnimation(.easeInOut(duration: 1.0)) {
+                                isImageLoaded = false
+                            }
+                        }
                 }
             }
         } else {
             Image(systemName: "photo")
                 .resizable()
-                .aspectRatio(contentMode: .fill)
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .aspectRatio(contentMode: .fit)
                 .clipped()
+                .foregroundColor(Color.gray)
         }
     }
 }

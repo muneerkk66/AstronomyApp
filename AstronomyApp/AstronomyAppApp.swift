@@ -13,6 +13,7 @@ struct AstronomyAppApp: App {
 
 	var body: some Scene {
 		WindowGroup {
+
 			AppCoordinatorView(screenFactory: ScreenFactory(appFactory: appFactory), coordinator: AppCoordinator())
 				.onAppear {
 					NetworkMonitor.shared.startMonitoring()

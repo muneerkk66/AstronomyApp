@@ -26,8 +26,7 @@ struct HomeCoordinatorView: View {
                     }.tabItem {
                         Label("tab.home.title", systemImage: "house")
                     }
-
-			}
+            }
         }
     }
 

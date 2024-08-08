@@ -10,7 +10,7 @@ import Foundation
 struct PODResponse: Codable {
     let date: String
     let explanation: String
-    let hdUrl: String
+    let hdUrl: String?
     let mediaType: String
     let serviceVersion: String
     let title: String

@@ -259,5 +259,69 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BB3DE64D-59E8-4F55-A37D-3C57FFE84C47"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AstronomyApp/Data/Network/PODService+Live.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "fetchImageData(date:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4688789-71B0-4266-888E-7D6A1D590927"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AstronomyApp/Utils/Parser.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "decode(_:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "A4688789-71B0-4266-888E-7D6A1D590927 - f4cb22a9b8e42217"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Error) -&gt; AstronomyApp.APIError in AstronomyApp.decode&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(Foundation.Data) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0, AstronomyApp.APIError&gt;"
+                  moduleName = "AstronomyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muneerkk/Desktop/AstronomyApp/AstronomyApp/Utils/Parser.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "536">
+               </Location>
+               <Location
+                  uuid = "A4688789-71B0-4266-888E-7D6A1D590927 - f4cb22a9b8e42217"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Error) -&gt; AstronomyApp.APIError in AstronomyApp.decode&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(Foundation.Data) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0, AstronomyApp.APIError&gt;"
+                  moduleName = "AstronomyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muneerkk/Desktop/AstronomyApp/AstronomyApp/Utils/Parser.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "792">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

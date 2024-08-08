@@ -59,6 +59,7 @@
 		083DFC932C64FD4F00A4A75A /* PODLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC922C64FD4F00A4A75A /* PODLocalDataSource.swift */; };
 		083DFC9E2C651C9B00A4A75A /* PODHistory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC9C2C651C9B00A4A75A /* PODHistory+CoreDataClass.swift */; };
 		083DFC9F2C651C9B00A4A75A /* PODHistory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC9D2C651C9B00A4A75A /* PODHistory+CoreDataProperties.swift */; };
+		083DFCA12C65254900A4A75A /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFCA02C65254900A4A75A /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -135,6 +136,7 @@
 		083DFC922C64FD4F00A4A75A /* PODLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PODLocalDataSource.swift; sourceTree = "<group>"; };
 		083DFC9C2C651C9B00A4A75A /* PODHistory+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PODHistory+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		083DFC9D2C651C9B00A4A75A /* PODHistory+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PODHistory+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		083DFCA02C65254900A4A75A /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -433,6 +435,7 @@
 				083DFC762C64C10200A4A75A /* ErrorView.swift */,
 				083DFC782C64C74800A4A75A /* LazyImageView.swift */,
 				083DFC7D2C64DD8500A4A75A /* DatePickerView.swift */,
+				083DFCA02C65254900A4A75A /* WebView.swift */,
 			);
 			path = ReusableViews;
 			sourceTree = "<group>";
@@ -604,6 +607,7 @@
 				083DFC682C64311400A4A75A /* CoordinatorFactoryProtocol.swift in Sources */,
 				083DFC612C642F8900A4A75A /* HomeCoordinator.swift in Sources */,
 				083DFC402C64132E00A4A75A /* PODService.swift in Sources */,
+				083DFCA12C65254900A4A75A /* WebView.swift in Sources */,
 				083DFC7E2C64DD8500A4A75A /* DatePickerView.swift in Sources */,
 				083DFC9E2C651C9B00A4A75A /* PODHistory+CoreDataClass.swift in Sources */,
 				083DFC822C64FA2D00A4A75A /* AstronomyDB.xcdatamodeld in Sources */,
