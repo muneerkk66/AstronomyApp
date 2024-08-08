@@ -38,6 +38,18 @@
         }
       }
     },
+    "date.label.prefix" : {
+      "comment" : "Label for displaying the date",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date :"
+          }
+        }
+      }
+    },
     "Done" : {
       "localizations" : {
         "en" : {

@@ -15,7 +15,6 @@ final class HomeViewModel: ObservableObject {
 
     @Published var podData: PODData?
     @Published var viewState: HomeViewState = .idle
-    @Published var showRetry: Bool = false
     @Published var selectedDate: Date = Date()
 
     private var disposables = Set<AnyCancellable>()
@@ -25,13 +24,12 @@ final class HomeViewModel: ObservableObject {
         self.fetchPODUseCase = fetchPODUseCase
     }
 
-    @MainActor
     func handle(_ event: HomeViewEvent) {
         switch event {
         case .loadPODData, .retryLoadPODData:
             fetchPodData(date: selectedDate)
-        case .onTapShowRetry:
-            showRetry.toggle()
+        case .idle:
+			break;
         }
     }
 

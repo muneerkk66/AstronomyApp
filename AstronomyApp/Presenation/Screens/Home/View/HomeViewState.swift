@@ -8,8 +8,8 @@
 import Foundation
 
 enum HomeViewEvent {
+	case idle
     case retryLoadPODData
-    case onTapShowRetry
     case loadPODData
 }
 

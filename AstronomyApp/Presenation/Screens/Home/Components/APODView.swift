@@ -48,16 +48,18 @@ struct APODView: View {
     var footer: some View {
         VStack(alignment: .leading) {
             Text((viewModel.podData?.title).orEmpty)
-                .font(.caption)
+                .font(.subheadline)
                 .fontWeight(.bold)
                 .minimumScaleFactor(0.2)
-                .foregroundColor(.black)
-            Text((viewModel.podData?.date).orEmpty)
+                .foregroundColor(.primary)
+			Text((viewModel.podData?.date.displayDate).orEmpty)
                 .font(.footnote)
-                .foregroundColor(.black)
+				.fontWeight(.medium)
+                .foregroundColor(.primary)
+				.padding(.bottom,10)
             Text((viewModel.podData?.description).orEmpty)
                 .font(.caption)
-                .foregroundColor(.black)
+                .foregroundColor(.primary)
         }.padding()
     }
 
