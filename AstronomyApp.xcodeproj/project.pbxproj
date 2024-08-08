@@ -53,6 +53,7 @@
 		083DFC772C64C10200A4A75A /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC762C64C10200A4A75A /* ErrorView.swift */; };
 		083DFC792C64C74800A4A75A /* LazyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC782C64C74800A4A75A /* LazyImageView.swift */; };
 		083DFC7B2C64C7F900A4A75A /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC7A2C64C7F900A4A75A /* String+Extension.swift */; };
+		083DFC7E2C64DD8500A4A75A /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC7D2C64DD8500A4A75A /* DatePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +124,7 @@
 		083DFC782C64C74800A4A75A /* LazyImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyImageView.swift; sourceTree = "<group>"; };
 		083DFC7A2C64C7F900A4A75A /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		083DFC7C2C64CB4600A4A75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		083DFC7D2C64DD8500A4A75A /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -418,6 +420,7 @@
 			children = (
 				083DFC762C64C10200A4A75A /* ErrorView.swift */,
 				083DFC782C64C74800A4A75A /* LazyImageView.swift */,
+				083DFC7D2C64DD8500A4A75A /* DatePickerView.swift */,
 			);
 			path = ReusableViews;
 			sourceTree = "<group>";
@@ -569,6 +572,7 @@
 				083DFC682C64311400A4A75A /* CoordinatorFactoryProtocol.swift in Sources */,
 				083DFC612C642F8900A4A75A /* HomeCoordinator.swift in Sources */,
 				083DFC402C64132E00A4A75A /* PODService.swift in Sources */,
+				083DFC7E2C64DD8500A4A75A /* DatePickerView.swift in Sources */,
 				083DFC4B2C64200200A4A75A /* PODRepository.swift in Sources */,
 				083DFC352C640B6C00A4A75A /* APIClient+Live.swift in Sources */,
 				083DFC5D2C642E1400A4A75A /* Coordinator.swift in Sources */,

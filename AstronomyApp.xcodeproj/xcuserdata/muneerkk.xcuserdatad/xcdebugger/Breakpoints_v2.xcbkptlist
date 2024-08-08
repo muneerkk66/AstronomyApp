@@ -178,6 +178,38 @@
             endingLineNumber = "34"
             landmarkName = "handle(_:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B4FDDFB0-3621-46A9-926E-558C41F999DC - a13360eebfccc158"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AstronomyApp.HomeViewModel.handle(AstronomyApp.HomeViewEvent) -&gt; ()"
+                  moduleName = "AstronomyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muneerkk/Desktop/AstronomyApp/AstronomyApp/Presenation/Screens/Home/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "308">
+               </Location>
+               <Location
+                  uuid = "B4FDDFB0-3621-46A9-926E-558C41F999DC - a13360eebfccc158"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AstronomyApp.HomeViewModel.handle(AstronomyApp.HomeViewEvent) -&gt; ()"
+                  moduleName = "AstronomyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muneerkk/Desktop/AstronomyApp/AstronomyApp/Presenation/Screens/Home/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "424">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

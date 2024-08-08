@@ -9,25 +9,31 @@ import SwiftUI
 
 struct APODView: View {
     @EnvironmentObject var viewModel: HomeViewModel
+    @State private var showDatePicker = false
 
     var body: some View {
         GeometryReader { geometry in
             VStack {
-                List {
-                    LazyImageView(urlString: viewModel.podData?.url)
-                        .frame(width: geometry.size.width, height: geometry.size.height * 0.5)
-                        .overlay(footer, alignment: .bottom)
-                        .cornerRadius(10)
-                    description
+                ZStack(alignment: .bottomTrailing) {
+                    List {
+                        LazyImageView(urlString: viewModel.podData?.url)
+                            .frame(width: geometry.size.width)
+                            .overlay(footer, alignment: .bottom)
+                        description
+                    }
+                    dateView
                 }
+            }.sheet(isPresented: $showDatePicker) {
+                DatePickerView(selectedDate: $viewModel.selectedDate, onSelectDate: {
+                    viewModel.handle(.loadPODData)
+                })
             }
-            .edgesIgnoringSafeArea(.all)
         }
     }
 
     @ViewBuilder
     var footer: some View {
-        VStack {
+        VStack(alignment: .center) {
             Text((viewModel.podData?.title).orEmpty)
                 .font(.caption)
                 .fontWeight(.bold)
@@ -44,6 +50,22 @@ struct APODView: View {
         Text((viewModel.podData?.description).orEmpty)
             .font(.caption)
             .foregroundColor(.black)
+    }
+
+    @ViewBuilder
+    var dateView: some View {
+        Button {
+            showDatePicker = true
+        } label: {
+            Image(systemName: "calendar")
+                .font(.title.weight(.semibold))
+                .padding()
+                .background(Color.pink)
+                .foregroundColor(.white)
+                .clipShape(Circle())
+                .shadow(radius: 4, x: 0, y: 4)
+        }
+        .padding()
     }
 }
 

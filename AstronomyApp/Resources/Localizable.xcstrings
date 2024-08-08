@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "" : {
+
+    },
     "action.retry" : {
       "localizations" : {
         "en" : {
@@ -31,6 +34,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Connection error"
+          }
+        }
+      }
+    },
+    "Done" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
           }
         }
       }

@@ -17,7 +17,7 @@ struct LazyImageView: View {
                 switch phase {
                 case .empty:
                     ProgressView()
-                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                        .frame(maxWidth: .infinity)
                 case let .success(image):
                     image
                         .resizable()

@@ -52,7 +52,7 @@ final class HomeViewModel: ObservableObject {
                 }
             }, receiveValue: { [weak self] results in
                 guard let self = self else { return }
-                self.podData = results
+                podData = results
             })
             .store(in: &disposables)
     }
