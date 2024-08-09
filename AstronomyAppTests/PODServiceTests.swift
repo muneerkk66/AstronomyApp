@@ -21,7 +21,7 @@ final class PODServiceTests: XCTestCase {
     }
 
     func testFetchPodData() throws {
-        let result = try awaitPublisher(model.fetchImageData(date: Date()))
+        let result = try awaitPublisher(model.fetchMediaData(date: Date()))
         XCTAssertTrue(try XCTUnwrap(result.title.count) > 0)
         XCTAssertNotNil(try XCTUnwrap(result.explanation.count) > 0)
         XCTAssertNotNil(try XCTUnwrap(result.url))

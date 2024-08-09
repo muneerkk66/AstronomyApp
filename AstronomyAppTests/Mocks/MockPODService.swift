@@ -17,7 +17,7 @@ final class MockPODService: PODService {
         self.result = result
     }
 
-    func fetchImageData(date: Date) -> AnyPublisher<PODResponse, APIError> {
+    func fetchMediaData(date: Date) -> AnyPublisher<PODResponse, APIError> {
         switch result {
         case let .success(response):
             return Just(response)

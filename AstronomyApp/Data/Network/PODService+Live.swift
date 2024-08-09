@@ -12,10 +12,10 @@ final class PODServiceLive {
     private var apiClient: APIClient
 
     enum Endpoint {
-        case fetchImageData
+        case fetchMediaData
         var path: String {
             switch self {
-            case .fetchImageData:
+            case .fetchMediaData:
                 return "/planetary/apod/"
             }
         }
@@ -27,13 +27,13 @@ final class PODServiceLive {
 }
 
 extension PODServiceLive: PODService {
-    func fetchImageData(date: Date
+    func fetchMediaData(date: Date
     ) -> AnyPublisher<PODResponse, APIError> {
 
         let params = [AppConstants.APODQuery.date: date.dateOnly]
 
         let fetchRequest = APIRequest<PODResponse>(
-            path: Self.Endpoint.fetchImageData.path,
+            path: Self.Endpoint.fetchMediaData.path,
             query: params,
             method: .get
         )

@@ -10,6 +10,6 @@ import Foundation
 
 protocol PODService {
     @discardableResult
-    func fetchImageData(date: Date
+    func fetchMediaData(date: Date
     ) -> AnyPublisher<PODResponse, APIError>
 }

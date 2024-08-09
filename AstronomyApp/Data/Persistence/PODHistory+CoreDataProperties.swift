@@ -2,7 +2,7 @@
 //  PODHistory+CoreDataProperties.swift
 //  AstronomyApp
 //
-//  Created by Muneer K K on 08/08/2024.
+//  Created by Muneer K K on 09/08/2024.
 //
 //
 
@@ -18,10 +18,10 @@ extension PODHistory {
 
     @NSManaged public var date: String?
     @NSManaged public var explanation: String?
-    @NSManaged public var title: String?
-    @NSManaged public var url: String?
     @NSManaged public var mediaType: String?
+    @NSManaged public var title: String?
     @NSManaged public var updatedAt: Date?
+    @NSManaged public var url: String?
 
 }
 

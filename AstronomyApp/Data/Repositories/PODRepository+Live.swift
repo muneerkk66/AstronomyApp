@@ -22,7 +22,7 @@ final class PODRepositoryLive: PODRepository {
             return fetchHistoryData()
         }
 
-        return podService.fetchImageData(date: date)
+        return podService.fetchMediaData(date: date)
             .map {
                 [weak self] result -> PODData in
                 guard let self = self else {

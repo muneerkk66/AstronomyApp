@@ -57,8 +57,6 @@
 		083DFC822C64FA2D00A4A75A /* AstronomyDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC802C64FA2D00A4A75A /* AstronomyDB.xcdatamodeld */; };
 		083DFC842C64FA8500A4A75A /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC832C64FA8500A4A75A /* PersistenceController.swift */; };
 		083DFC932C64FD4F00A4A75A /* PODLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC922C64FD4F00A4A75A /* PODLocalDataSource.swift */; };
-		083DFC9E2C651C9B00A4A75A /* PODHistory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC9C2C651C9B00A4A75A /* PODHistory+CoreDataClass.swift */; };
-		083DFC9F2C651C9B00A4A75A /* PODHistory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC9D2C651C9B00A4A75A /* PODHistory+CoreDataProperties.swift */; };
 		083DFCA12C65254900A4A75A /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFCA02C65254900A4A75A /* WebView.swift */; };
 		0880FAFD2C658BCB00F2CAAA /* CombinePublisherTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FAFB2C658BCB00F2CAAA /* CombinePublisherTest.swift */; };
 		0880FB022C658C2800F2CAAA /* MockFetchHostsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FAFF2C658C2800F2CAAA /* MockFetchHostsUseCase.swift */; };
@@ -75,6 +73,8 @@
 		0880FB192C66389000F2CAAA /* ParentAccessibilityBranchKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FB182C66389000F2CAAA /* ParentAccessibilityBranchKey.swift */; };
 		0880FB1B2C6638D300F2CAAA /* AccessibilityIdentifierBranchModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FB1A2C6638D300F2CAAA /* AccessibilityIdentifierBranchModifier.swift */; };
 		0880FB1C2C663C1900F2CAAA /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC422C64150000A4A75A /* AppConstants.swift */; };
+		0880FB1F2C6640DB00F2CAAA /* PODHistory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FB1D2C6640DB00F2CAAA /* PODHistory+CoreDataClass.swift */; };
+		0880FB202C6640DB00F2CAAA /* PODHistory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FB1E2C6640DB00F2CAAA /* PODHistory+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,8 +149,6 @@
 		083DFC812C64FA2D00A4A75A /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		083DFC832C64FA8500A4A75A /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		083DFC922C64FD4F00A4A75A /* PODLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PODLocalDataSource.swift; sourceTree = "<group>"; };
-		083DFC9C2C651C9B00A4A75A /* PODHistory+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PODHistory+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		083DFC9D2C651C9B00A4A75A /* PODHistory+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PODHistory+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		083DFCA02C65254900A4A75A /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		0880FAFB2C658BCB00F2CAAA /* CombinePublisherTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombinePublisherTest.swift; sourceTree = "<group>"; };
 		0880FAFF2C658C2800F2CAAA /* MockFetchHostsUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockFetchHostsUseCase.swift; sourceTree = "<group>"; };
@@ -166,6 +164,8 @@
 		0880FB152C66362A00F2CAAA /* AccessibilityIdentifierLeafModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityIdentifierLeafModifier.swift; sourceTree = "<group>"; };
 		0880FB182C66389000F2CAAA /* ParentAccessibilityBranchKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentAccessibilityBranchKey.swift; sourceTree = "<group>"; };
 		0880FB1A2C6638D300F2CAAA /* AccessibilityIdentifierBranchModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityIdentifierBranchModifier.swift; sourceTree = "<group>"; };
+		0880FB1D2C6640DB00F2CAAA /* PODHistory+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PODHistory+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0880FB1E2C6640DB00F2CAAA /* PODHistory+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PODHistory+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -478,8 +478,8 @@
 		083DFC7F2C64F9EF00A4A75A /* Persistence */ = {
 			isa = PBXGroup;
 			children = (
-				083DFC9C2C651C9B00A4A75A /* PODHistory+CoreDataClass.swift */,
-				083DFC9D2C651C9B00A4A75A /* PODHistory+CoreDataProperties.swift */,
+				0880FB1D2C6640DB00F2CAAA /* PODHistory+CoreDataClass.swift */,
+				0880FB1E2C6640DB00F2CAAA /* PODHistory+CoreDataProperties.swift */,
 				083DFC802C64FA2D00A4A75A /* AstronomyDB.xcdatamodeld */,
 				083DFC832C64FA8500A4A75A /* PersistenceController.swift */,
 			);
@@ -659,6 +659,7 @@
 			files = (
 				083DFC472C641A1000A4A75A /* PODResponse.swift in Sources */,
 				083DFC6B2C64311500A4A75A /* ScreenFactory.swift in Sources */,
+				0880FB202C6640DB00F2CAAA /* PODHistory+CoreDataProperties.swift in Sources */,
 				083DFC742C64C0D300A4A75A /* HomeViewState.swift in Sources */,
 				083DFC5C2C642E1400A4A75A /* AppCoordinator.swift in Sources */,
 				083DFC842C64FA8500A4A75A /* PersistenceController.swift in Sources */,
@@ -670,6 +671,7 @@
 				083DFC7B2C64C7F900A4A75A /* String+Extension.swift in Sources */,
 				083DFC632C642F8900A4A75A /* HomeCoordinatorProtocol.swift in Sources */,
 				083DFC6D2C64320000A4A75A /* HomeView.swift in Sources */,
+				0880FB1F2C6640DB00F2CAAA /* PODHistory+CoreDataClass.swift in Sources */,
 				083DFC322C640B6C00A4A75A /* AppEnvironment.swift in Sources */,
 				083DFC6A2C64311400A4A75A /* ScreenFactoryProtocol.swift in Sources */,
 				083DFC682C64311400A4A75A /* CoordinatorFactoryProtocol.swift in Sources */,
@@ -677,7 +679,6 @@
 				083DFC402C64132E00A4A75A /* PODService.swift in Sources */,
 				083DFCA12C65254900A4A75A /* WebView.swift in Sources */,
 				083DFC7E2C64DD8500A4A75A /* DatePickerView.swift in Sources */,
-				083DFC9E2C651C9B00A4A75A /* PODHistory+CoreDataClass.swift in Sources */,
 				083DFC822C64FA2D00A4A75A /* AstronomyDB.xcdatamodeld in Sources */,
 				083DFC4B2C64200200A4A75A /* PODRepository.swift in Sources */,
 				083DFC352C640B6C00A4A75A /* APIClient+Live.swift in Sources */,
@@ -695,7 +696,6 @@
 				083DFC5A2C642E1400A4A75A /* AppCoordinatorView.swift in Sources */,
 				083DFC532C64286100A4A75A /* PODType.swift in Sources */,
 				083DFC392C640DC000A4A75A /* Logger.swift in Sources */,
-				083DFC9F2C651C9B00A4A75A /* PODHistory+CoreDataProperties.swift in Sources */,
 				083DFC4D2C6423AE00A4A75A /* FetchPODUseCase.swift in Sources */,
 				083DFC312C640B6C00A4A75A /* APIEnvironment+Live.swift in Sources */,
 				083DFC512C6426E800A4A75A /* PODData+DomainMapper.swift in Sources */,
