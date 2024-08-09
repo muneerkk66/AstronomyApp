@@ -60,13 +60,17 @@
 		083DFC9E2C651C9B00A4A75A /* PODHistory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC9C2C651C9B00A4A75A /* PODHistory+CoreDataClass.swift */; };
 		083DFC9F2C651C9B00A4A75A /* PODHistory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC9D2C651C9B00A4A75A /* PODHistory+CoreDataProperties.swift */; };
 		083DFCA12C65254900A4A75A /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFCA02C65254900A4A75A /* WebView.swift */; };
-		0880FAFC2C658BCB00F2CAAA /* SwiftUI+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FAFA2C658BCB00F2CAAA /* SwiftUI+Extension.swift */; };
 		0880FAFD2C658BCB00F2CAAA /* CombinePublisherTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FAFB2C658BCB00F2CAAA /* CombinePublisherTest.swift */; };
 		0880FB022C658C2800F2CAAA /* MockFetchHostsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FAFF2C658C2800F2CAAA /* MockFetchHostsUseCase.swift */; };
 		0880FB032C658C2800F2CAAA /* MockAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FB002C658C2800F2CAAA /* MockAPIClient.swift */; };
-		0880FB042C658C2800F2CAAA /* MockResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FB012C658C2800F2CAAA /* MockResponse.swift */; };
+		0880FB042C658C2800F2CAAA /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FB012C658C2800F2CAAA /* MockData.swift */; };
 		0880FB062C658EB700F2CAAA /* PODServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FB052C658EB700F2CAAA /* PODServiceTests.swift */; };
 		0880FB082C6611A500F2CAAA /* MockPODLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FB072C6611A500F2CAAA /* MockPODLocalDataSource.swift */; };
+		0880FB0A2C66126000F2CAAA /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FB092C66126000F2CAAA /* HomeViewModelTests.swift */; };
+		0880FB0C2C6612EF00F2CAAA /* MockHomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FB0B2C6612EF00F2CAAA /* MockHomeCoordinator.swift */; };
+		0880FB0E2C6614B700F2CAAA /* MockPODHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FB0D2C6614B700F2CAAA /* MockPODHistory.swift */; };
+		0880FB102C66168000F2CAAA /* PODRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FB0F2C66168000F2CAAA /* PODRepositoryTests.swift */; };
+		0880FB142C6617D300F2CAAA /* MockPODService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FB132C6617D300F2CAAA /* MockPODService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -144,13 +148,17 @@
 		083DFC9C2C651C9B00A4A75A /* PODHistory+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PODHistory+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		083DFC9D2C651C9B00A4A75A /* PODHistory+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PODHistory+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		083DFCA02C65254900A4A75A /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
-		0880FAFA2C658BCB00F2CAAA /* SwiftUI+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftUI+Extension.swift"; sourceTree = "<group>"; };
 		0880FAFB2C658BCB00F2CAAA /* CombinePublisherTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombinePublisherTest.swift; sourceTree = "<group>"; };
 		0880FAFF2C658C2800F2CAAA /* MockFetchHostsUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockFetchHostsUseCase.swift; sourceTree = "<group>"; };
 		0880FB002C658C2800F2CAAA /* MockAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockAPIClient.swift; sourceTree = "<group>"; };
-		0880FB012C658C2800F2CAAA /* MockResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockResponse.swift; sourceTree = "<group>"; };
+		0880FB012C658C2800F2CAAA /* MockData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		0880FB052C658EB700F2CAAA /* PODServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PODServiceTests.swift; sourceTree = "<group>"; };
 		0880FB072C6611A500F2CAAA /* MockPODLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPODLocalDataSource.swift; sourceTree = "<group>"; };
+		0880FB092C66126000F2CAAA /* HomeViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		0880FB0B2C6612EF00F2CAAA /* MockHomeCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockHomeCoordinator.swift; sourceTree = "<group>"; };
+		0880FB0D2C6614B700F2CAAA /* MockPODHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPODHistory.swift; sourceTree = "<group>"; };
+		0880FB0F2C66168000F2CAAA /* PODRepositoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PODRepositoryTests.swift; sourceTree = "<group>"; };
+		0880FB132C6617D300F2CAAA /* MockPODService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPODService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +238,8 @@
 				0880FAFE2C658BEB00F2CAAA /* Mocks */,
 				0880FAF92C658BAB00F2CAAA /* Utils */,
 				083DFBFD2C6406E600A4A75A /* AstronomyAppTests.swift */,
+				0880FB0F2C66168000F2CAAA /* PODRepositoryTests.swift */,
+				0880FB092C66126000F2CAAA /* HomeViewModelTests.swift */,
 				0880FB052C658EB700F2CAAA /* PODServiceTests.swift */,
 			);
 			path = AstronomyAppTests;
@@ -480,7 +490,6 @@
 			isa = PBXGroup;
 			children = (
 				0880FAFB2C658BCB00F2CAAA /* CombinePublisherTest.swift */,
-				0880FAFA2C658BCB00F2CAAA /* SwiftUI+Extension.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -488,10 +497,13 @@
 		0880FAFE2C658BEB00F2CAAA /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
+				0880FB0B2C6612EF00F2CAAA /* MockHomeCoordinator.swift */,
 				0880FB002C658C2800F2CAAA /* MockAPIClient.swift */,
 				0880FAFF2C658C2800F2CAAA /* MockFetchHostsUseCase.swift */,
-				0880FB012C658C2800F2CAAA /* MockResponse.swift */,
+				0880FB012C658C2800F2CAAA /* MockData.swift */,
 				0880FB072C6611A500F2CAAA /* MockPODLocalDataSource.swift */,
+				0880FB0D2C6614B700F2CAAA /* MockPODHistory.swift */,
+				0880FB132C6617D300F2CAAA /* MockPODService.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -681,13 +693,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0880FB042C658C2800F2CAAA /* MockResponse.swift in Sources */,
+				0880FB042C658C2800F2CAAA /* MockData.swift in Sources */,
+				0880FB142C6617D300F2CAAA /* MockPODService.swift in Sources */,
 				0880FB022C658C2800F2CAAA /* MockFetchHostsUseCase.swift in Sources */,
 				0880FB082C6611A500F2CAAA /* MockPODLocalDataSource.swift in Sources */,
 				0880FAFD2C658BCB00F2CAAA /* CombinePublisherTest.swift in Sources */,
 				083DFBFE2C6406E600A4A75A /* AstronomyAppTests.swift in Sources */,
-				0880FAFC2C658BCB00F2CAAA /* SwiftUI+Extension.swift in Sources */,
+				0880FB0E2C6614B700F2CAAA /* MockPODHistory.swift in Sources */,
+				0880FB102C66168000F2CAAA /* PODRepositoryTests.swift in Sources */,
+				0880FB0A2C66126000F2CAAA /* HomeViewModelTests.swift in Sources */,
 				0880FB032C658C2800F2CAAA /* MockAPIClient.swift in Sources */,
+				0880FB0C2C6612EF00F2CAAA /* MockHomeCoordinator.swift in Sources */,
 				0880FB062C658EB700F2CAAA /* PODServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
