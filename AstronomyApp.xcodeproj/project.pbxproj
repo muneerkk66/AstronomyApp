@@ -75,6 +75,7 @@
 		0880FB1C2C663C1900F2CAAA /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC422C64150000A4A75A /* AppConstants.swift */; };
 		0880FB1F2C6640DB00F2CAAA /* PODHistory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FB1D2C6640DB00F2CAAA /* PODHistory+CoreDataClass.swift */; };
 		0880FB202C6640DB00F2CAAA /* PODHistory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FB1E2C6640DB00F2CAAA /* PODHistory+CoreDataProperties.swift */; };
+		0880FB222C66414B00F2CAAA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0880FB212C66414B00F2CAAA /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -166,6 +167,7 @@
 		0880FB1A2C6638D300F2CAAA /* AccessibilityIdentifierBranchModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityIdentifierBranchModifier.swift; sourceTree = "<group>"; };
 		0880FB1D2C6640DB00F2CAAA /* PODHistory+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PODHistory+CoreDataClass.swift"; sourceTree = "<group>"; };
 		0880FB1E2C6640DB00F2CAAA /* PODHistory+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PODHistory+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0880FB212C66414B00F2CAAA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +198,7 @@
 		083DFBE02C6406E500A4A75A = {
 			isa = PBXGroup;
 			children = (
+				0880FB212C66414B00F2CAAA /* README.md */,
 				083DFBEB2C6406E500A4A75A /* AstronomyApp */,
 				083DFBFC2C6406E600A4A75A /* AstronomyAppTests */,
 				083DFC062C6406E600A4A75A /* AstronomyAppUITests */,
@@ -283,11 +286,11 @@
 		083DFC182C64097100A4A75A /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				083DFC192C64098000A4A75A /* Mapper */,
+				083DFC1A2C64098700A4A75A /* Network */,
+				083DFC1B2C64098F00A4A75A /* Repositories */,
 				083DFC912C64FD3000A4A75A /* DataSource */,
 				083DFC7F2C64F9EF00A4A75A /* Persistence */,
-				083DFC1B2C64098F00A4A75A /* Repositories */,
-				083DFC1A2C64098700A4A75A /* Network */,
-				083DFC192C64098000A4A75A /* Mapper */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -321,9 +324,9 @@
 		083DFC1C2C64099C00A4A75A /* Domain */ = {
 			isa = PBXGroup;
 			children = (
-				083DFC1F2C6409BE00A4A75A /* UseCases */,
-				083DFC1E2C6409B100A4A75A /* Entities */,
 				083DFC1D2C6409A800A4A75A /* Interfaces */,
+				083DFC1E2C6409B100A4A75A /* Entities */,
+				083DFC1F2C6409BE00A4A75A /* UseCases */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -356,6 +359,7 @@
 		083DFC202C6409EC00A4A75A /* Presenation */ = {
 			isa = PBXGroup;
 			children = (
+				083DFC752C64C0E600A4A75A /* ReusableViews */,
 				083DFC222C640A1000A4A75A /* Screens */,
 				083DFC212C6409FD00A4A75A /* AppCoordinator */,
 			);
@@ -376,7 +380,6 @@
 		083DFC222C640A1000A4A75A /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				083DFC752C64C0E600A4A75A /* ReusableViews */,
 				083DFC232C640A2600A4A75A /* Home */,
 			);
 			path = Screens;
@@ -385,10 +388,9 @@
 		083DFC232C640A2600A4A75A /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				083DFC702C64C03D00A4A75A /* Components */,
+				083DFC242C640A3800A4A75A /* Coordinator */,
 				083DFC262C640A5400A4A75A /* View */,
 				083DFC252C640A4C00A4A75A /* ViewModel */,
-				083DFC242C640A3800A4A75A /* Coordinator */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -414,6 +416,7 @@
 		083DFC262C640A5400A4A75A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				083DFC702C64C03D00A4A75A /* Components */,
 				083DFC6C2C64320000A4A75A /* HomeView.swift */,
 				083DFC732C64C0D300A4A75A /* HomeViewState.swift */,
 			);
@@ -632,6 +635,7 @@
 			files = (
 				083DFBF42C6406E600A4A75A /* Preview Assets.xcassets in Resources */,
 				083DFBF12C6406E600A4A75A /* Assets.xcassets in Resources */,
+				0880FB222C66414B00F2CAAA /* README.md in Resources */,
 				083DFC3D2C640FED00A4A75A /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -945,7 +949,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 75RJJCJZ3V;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.muneer.AstronomyAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -965,7 +969,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 75RJJCJZ3V;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.muneer.AstronomyAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -984,7 +988,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 75RJJCJZ3V;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.muneer.AstronomyAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1003,7 +1007,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 75RJJCJZ3V;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.muneer.AstronomyAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

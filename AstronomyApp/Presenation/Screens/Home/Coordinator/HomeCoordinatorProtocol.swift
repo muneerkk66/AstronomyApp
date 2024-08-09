@@ -8,6 +8,7 @@
 import Foundation
 
 @MainActor
+//TODO: (MUNEER): implement details view
 protocol HomeCoordinatorProtocol {
     func showDetails()
 }
