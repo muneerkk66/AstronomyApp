@@ -12,7 +12,7 @@ import XCTest
 final class PODServiceTests: XCTestCase {
     var model: PODServiceLive!
     override func setUpWithError() throws {
-        let client = MockAPIClient.success(with: MockResponse.podResponse)
+        let client = MockAPIClient.success(with: MockData.podResponse)
         model = PODServiceLive(apiClient: client)
     }
 

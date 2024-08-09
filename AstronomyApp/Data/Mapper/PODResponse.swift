@@ -25,4 +25,20 @@ struct PODResponse: Codable {
         case title
         case url
     }
+
+	
+}
+
+extension PODResponse {
+	func createResponse(mediaType: String) -> PODResponse {
+		return PODResponse(
+			date: date,
+			explanation: explanation,
+			hdUrl: hdUrl,
+			mediaType: mediaType,
+			serviceVersion:serviceVersion,
+			title: title,
+			url: url
+		)
+	}
 }

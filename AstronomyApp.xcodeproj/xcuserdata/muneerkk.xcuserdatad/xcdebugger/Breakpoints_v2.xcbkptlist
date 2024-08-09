@@ -7,254 +7,63 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "77D1C126-BBF6-4D8D-86B3-ABB9B0B14EE2"
+            uuid = "28FC129C-ED41-431A-B286-55B9017B2E90"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "AstronomyApp/Presenation/Screens/Home/View/HomeViewState.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2"
-            endingLineNumber = "2"
-            landmarkName = "unknown"
-            landmarkType = "0">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "AAF3B731-22F7-4806-AC7D-6A3D7F2A6E5F"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AstronomyApp/API/APIClient+Live.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "request(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "01E931A8-C865-40F9-99C5-E66FD9770D90"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AstronomyApp/API/APIClient+Live.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "request(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "8BDCE3FE-243D-4600-A80B-0D6AE9E17DEA"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AstronomyApp/API/APIClient+Live.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "request(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "8BDCE3FE-243D-4600-A80B-0D6AE9E17DEA - 83aad0fb2a3f9298"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "AstronomyApp.APIClientLive.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(AstronomyApp.APIRequest&lt;&#x3c4;_0_0&gt;) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0, AstronomyApp.APIError&gt;"
-                  moduleName = "AstronomyApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/muneerkk/Desktop/AstronomyApp/AstronomyApp/API/APIClient+Live.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "1532">
-               </Location>
-               <Location
-                  uuid = "8BDCE3FE-243D-4600-A80B-0D6AE9E17DEA - 5b540fc66ad2434d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 ((data: Foundation.Data, response: __C.NSURLResponse)) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0, AstronomyApp.APIError&gt; in AstronomyApp.APIClientLive.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(AstronomyApp.APIRequest&lt;&#x3c4;_0_0&gt;) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0, AstronomyApp.APIError&gt;"
-                  moduleName = "AstronomyApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/muneerkk/Desktop/AstronomyApp/AstronomyApp/API/APIClient+Live.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "80">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "0FE46E32-C7EE-4A93-9C5A-379307ED42DA"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AstronomyApp/Presenation/Screens/Home/ViewModel/HomeViewModel.swift"
+            filePath = "AstronomyApp/Presenation/Screens/Home/Components/APODView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "55"
             endingLineNumber = "55"
-            landmarkName = "fetchPodData(date:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "0FE46E32-C7EE-4A93-9C5A-379307ED42DA - e28599198dcd14c4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (AstronomyApp.PODData) -&gt; () in AstronomyApp.HomeViewModel.fetchPodData(date: Foundation.Date) -&gt; ()"
-                  moduleName = "AstronomyApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/muneerkk/Desktop/AstronomyApp/AstronomyApp/Presenation/Screens/Home/ViewModel/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "55"
-                  endingLineNumber = "55"
-                  offsetFromSymbolStart = "324">
-               </Location>
-               <Location
-                  uuid = "0FE46E32-C7EE-4A93-9C5A-379307ED42DA - e28599198dcd14c4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (AstronomyApp.PODData) -&gt; () in AstronomyApp.HomeViewModel.fetchPodData(date: Foundation.Date) -&gt; ()"
-                  moduleName = "AstronomyApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/muneerkk/Desktop/AstronomyApp/AstronomyApp/Presenation/Screens/Home/ViewModel/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "55"
-                  endingLineNumber = "55"
-                  offsetFromSymbolStart = "272">
-               </Location>
-            </Locations>
+            landmarkName = "footer"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B4FDDFB0-3621-46A9-926E-558C41F999DC"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AstronomyApp/Presenation/Screens/Home/ViewModel/HomeViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "handle(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "B4FDDFB0-3621-46A9-926E-558C41F999DC - a13360eebfccc158"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "AstronomyApp.HomeViewModel.handle(AstronomyApp.HomeViewEvent) -&gt; ()"
-                  moduleName = "AstronomyApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/muneerkk/Desktop/AstronomyApp/AstronomyApp/Presenation/Screens/Home/ViewModel/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "34"
-                  endingLineNumber = "34"
-                  offsetFromSymbolStart = "308">
-               </Location>
-               <Location
-                  uuid = "B4FDDFB0-3621-46A9-926E-558C41F999DC - a13360eebfccc158"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "AstronomyApp.HomeViewModel.handle(AstronomyApp.HomeViewEvent) -&gt; ()"
-                  moduleName = "AstronomyApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/muneerkk/Desktop/AstronomyApp/AstronomyApp/Presenation/Screens/Home/ViewModel/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "34"
-                  endingLineNumber = "34"
-                  offsetFromSymbolStart = "424">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "959A257B-E080-4C51-91D1-6544FA7B956B"
+            uuid = "C018DBA3-F0A7-4977-9194-F3FE305C040B"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "AstronomyApp/Data/DataSource/PODLocalDataSource.swift"
+            filePath = "AstronomyApp/Utils/Formatter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "saveHistory(_:)"
-            landmarkType = "7">
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "displayDate"
+            landmarkType = "24">
             <Locations>
                <Location
-                  uuid = "959A257B-E080-4C51-91D1-6544FA7B956B - 5a4139e6431dcc9e"
+                  uuid = "C018DBA3-F0A7-4977-9194-F3FE305C040B - e3f69de7b4e20a2b"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 ((Swift.Result&lt;Swift.Optional&lt;AstronomyApp.PODHistory&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in AstronomyApp.PODLocalDataSourceLive.fetchHistory() -&gt; Combine.AnyPublisher&lt;Swift.Optional&lt;AstronomyApp.PODHistory&gt;, Swift.Error&gt;"
+                  symbolName = "Swift.String.displayDate.getter : Swift.String"
                   moduleName = "AstronomyApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/muneerkk/Desktop/AstronomyApp/AstronomyApp/Data/DataSource/PODLocalDataSource.swift"
+                  urlString = "file:///Users/muneerkk/Desktop/AstronomyApp/AstronomyApp/Utils/Formatter.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "300">
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "224">
                </Location>
                <Location
-                  uuid = "959A257B-E080-4C51-91D1-6544FA7B956B - 4ca103545912556c"
+                  uuid = "C018DBA3-F0A7-4977-9194-F3FE305C040B - e3f69de7b4e20a2b"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for AstronomyApp.PODLocalDataSourceLive.saveHistory(AstronomyApp.PODResponse) async -&gt; ()"
+                  symbolName = "Swift.String.displayDate.getter : Swift.String"
                   moduleName = "AstronomyApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/muneerkk/Desktop/AstronomyApp/AstronomyApp/Data/DataSource/PODLocalDataSource.swift"
+                  urlString = "file:///Users/muneerkk/Desktop/AstronomyApp/AstronomyApp/Utils/Formatter.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "72">
-               </Location>
-               <Location
-                  uuid = "959A257B-E080-4C51-91D1-6544FA7B956B - f0333730f33b916e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for AstronomyApp.PODLocalDataSourceLive.saveHistory(AstronomyApp.PODResponse) async -&gt; ()"
-                  moduleName = "AstronomyApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/muneerkk/Desktop/AstronomyApp/AstronomyApp/Data/DataSource/PODLocalDataSource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "44">
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "584">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -262,65 +71,113 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "BB3DE64D-59E8-4F55-A37D-3C57FFE84C47"
+            uuid = "6A2736B9-B5A8-443A-8E3A-56FD978C9542"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "AstronomyApp/Data/Network/PODService+Live.swift"
+            filePath = "AstronomyAppTests/Mocks/MockPODLocalDataSource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "fetchImageData(date:)"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "withFetchSuccess(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A4688789-71B0-4266-888E-7D6A1D590927"
+            uuid = "FD9468DA-DFFA-4732-B40E-F73EADB0BEC8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AstronomyAppTests/PODRepositoryTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "testFetchLocalPODData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12DD9BE4-CFC6-4DF7-8C2A-5D942A867C88"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AstronomyAppTests/Mocks/MockPODLocalDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "fetchHistory()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7949F8C-A2EE-4C38-8DE1-D63B832F4826"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AstronomyApp/Data/Repositories/PODRepository+Live.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "loadPODData(date:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76E0C76D-4BAA-4C28-8278-D12BE249311B"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "AstronomyApp/Utils/Parser.swift"
+            filePath = "AstronomyApp/Data/Repositories/PODRepository+Live.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "decode(_:)"
-            landmarkType = "9">
-            <Locations>
-               <Location
-                  uuid = "A4688789-71B0-4266-888E-7D6A1D590927 - f4cb22a9b8e42217"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Error) -&gt; AstronomyApp.APIError in AstronomyApp.decode&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(Foundation.Data) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0, AstronomyApp.APIError&gt;"
-                  moduleName = "AstronomyApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/muneerkk/Desktop/AstronomyApp/AstronomyApp/Utils/Parser.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "536">
-               </Location>
-               <Location
-                  uuid = "A4688789-71B0-4266-888E-7D6A1D590927 - f4cb22a9b8e42217"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Error) -&gt; AstronomyApp.APIError in AstronomyApp.decode&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(Foundation.Data) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0, AstronomyApp.APIError&gt;"
-                  moduleName = "AstronomyApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/muneerkk/Desktop/AstronomyApp/AstronomyApp/Utils/Parser.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "792">
-               </Location>
-            </Locations>
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "loadPODData(date:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E93D5BDC-EE0B-40EE-8FAD-B478E2B0C406"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AstronomyAppTests/Mocks/MockPODLocalDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "withFetchFailure(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC7B2077-BA09-46ED-A1BF-E224B68B414A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AstronomyAppTests/AstronomyAppTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1"
+            endingLineNumber = "1"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
