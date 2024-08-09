@@ -65,6 +65,8 @@
 		0880FB022C658C2800F2CAAA /* MockFetchHostsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FAFF2C658C2800F2CAAA /* MockFetchHostsUseCase.swift */; };
 		0880FB032C658C2800F2CAAA /* MockAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FB002C658C2800F2CAAA /* MockAPIClient.swift */; };
 		0880FB042C658C2800F2CAAA /* MockResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FB012C658C2800F2CAAA /* MockResponse.swift */; };
+		0880FB062C658EB700F2CAAA /* PODServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FB052C658EB700F2CAAA /* PODServiceTests.swift */; };
+		0880FB082C6611A500F2CAAA /* MockPODLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FB072C6611A500F2CAAA /* MockPODLocalDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -147,6 +149,8 @@
 		0880FAFF2C658C2800F2CAAA /* MockFetchHostsUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockFetchHostsUseCase.swift; sourceTree = "<group>"; };
 		0880FB002C658C2800F2CAAA /* MockAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockAPIClient.swift; sourceTree = "<group>"; };
 		0880FB012C658C2800F2CAAA /* MockResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockResponse.swift; sourceTree = "<group>"; };
+		0880FB052C658EB700F2CAAA /* PODServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PODServiceTests.swift; sourceTree = "<group>"; };
+		0880FB072C6611A500F2CAAA /* MockPODLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPODLocalDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +230,7 @@
 				0880FAFE2C658BEB00F2CAAA /* Mocks */,
 				0880FAF92C658BAB00F2CAAA /* Utils */,
 				083DFBFD2C6406E600A4A75A /* AstronomyAppTests.swift */,
+				0880FB052C658EB700F2CAAA /* PODServiceTests.swift */,
 			);
 			path = AstronomyAppTests;
 			sourceTree = "<group>";
@@ -486,6 +491,7 @@
 				0880FB002C658C2800F2CAAA /* MockAPIClient.swift */,
 				0880FAFF2C658C2800F2CAAA /* MockFetchHostsUseCase.swift */,
 				0880FB012C658C2800F2CAAA /* MockResponse.swift */,
+				0880FB072C6611A500F2CAAA /* MockPODLocalDataSource.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -677,10 +683,12 @@
 			files = (
 				0880FB042C658C2800F2CAAA /* MockResponse.swift in Sources */,
 				0880FB022C658C2800F2CAAA /* MockFetchHostsUseCase.swift in Sources */,
+				0880FB082C6611A500F2CAAA /* MockPODLocalDataSource.swift in Sources */,
 				0880FAFD2C658BCB00F2CAAA /* CombinePublisherTest.swift in Sources */,
 				083DFBFE2C6406E600A4A75A /* AstronomyAppTests.swift in Sources */,
 				0880FAFC2C658BCB00F2CAAA /* SwiftUI+Extension.swift in Sources */,
 				0880FB032C658C2800F2CAAA /* MockAPIClient.swift in Sources */,
+				0880FB062C658EB700F2CAAA /* PODServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -899,7 +907,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 75RJJCJZ3V;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.muneer.AstronomyAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -919,7 +927,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 75RJJCJZ3V;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.muneer.AstronomyAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
