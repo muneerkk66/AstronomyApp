@@ -17,7 +17,7 @@ final class PODRepositoryLive: PODRepository {
         self.localDataSource = localDataSource
     }
 
-    func loadPODData(date: Date) -> AnyPublisher<PODData, APIError> {
+    func loadPODData(date: Date) -> AnyPublisher<PODData, AppError> {
         guard NetworkMonitor.shared.isConnected else {
             return fetchHistoryData()
         }
@@ -33,26 +33,27 @@ final class PODRepositoryLive: PODRepository {
                 }
                 return result.toPodModel()
             }
-            .catch { [weak self] _ -> AnyPublisher<PODData, APIError> in
+            .catch { [weak self] _ -> AnyPublisher<PODData, AppError> in
                 guard let self = self else {
-                    return Fail(error: APIError.connectionError).eraseToAnyPublisher()
+                    return Fail(error: AppError.connectionError).eraseToAnyPublisher()
                 }
+				// If an error occurs, try to fetch historical data from local storage
                 return fetchHistoryData()
             }
             .eraseToAnyPublisher()
     }
 
-    func fetchHistoryData() -> AnyPublisher<PODData, APIError> {
+    func fetchHistoryData() -> AnyPublisher<PODData, AppError> {
         return Future { promise in
             Task {
                 do {
                     let results = try await self.localDataSource.fetchHistory()
                     guard let results else {
-                        return promise(.failure(APIError.applicationError))
+                        return promise(.failure(AppError.applicationError))
                     }
                     promise(.success(results.toPodModel()))
                 } catch {
-                    promise(.failure(APIError.applicationError))
+                    promise(.failure(AppError.applicationError))
                 }
             }
         }

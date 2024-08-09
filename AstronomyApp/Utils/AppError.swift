@@ -7,7 +7,8 @@
 
 import Foundation
 
-enum APIError: LocalizedError {
+//TODO: (MUNEER) Create a new error type for API-related errors and separate out other errors.
+enum AppError: LocalizedError {
     case connectionError
     case serverError(Error)
     case applicationError
@@ -23,7 +24,7 @@ enum APIError: LocalizedError {
 }
 
 extension Error {
-    var applicationError: APIError {
+    var applicationError: AppError {
         if let error = self as? URLError {
             return error.code == .notConnectedToInternet
                 ? .connectionError

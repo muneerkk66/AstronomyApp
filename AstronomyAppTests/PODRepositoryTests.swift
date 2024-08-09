@@ -1,6 +1,6 @@
 //
 //  PODRepositoryTests.swift
-//  VitalityAppTests
+//  AstronomyAppTests
 //
 //  Created by Muneer K K on 09/08/2024.
 //
@@ -30,7 +30,7 @@ final class PODRepositoryTests: XCTestCase {
     }
 
     func testFetchLocalPODData() throws {
-        model = PODRepositoryLive(podService: MockPODService.failure(with: APIError.applicationError), localDataSource: mockPodLocalDataSource)
+        model = PODRepositoryLive(podService: MockPODService.failure(with: AppError.applicationError), localDataSource: mockPodLocalDataSource)
         let result = try awaitPublisher(model.loadPODData(date: Date.now))
         XCTAssertEqual(result.title, MockData.podHistory.title)
         XCTAssertEqual(result.description, MockData.podHistory.explanation)

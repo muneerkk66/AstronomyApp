@@ -15,7 +15,7 @@ enum AppEnvironment: String, Codable, CaseIterable {
     case production = "prod"
 }
 
-// TODO: Update environemnt variables based on the server.
+// TODO: (MUNEER) Update environment variables based on the server.
 extension AppEnvironment {
     var baseURL: URL {
         switch self {
@@ -28,7 +28,7 @@ extension AppEnvironment {
         }
     }
 
-	// TODO: Store your keys and secrets away from your source code ,use Arkana keys : https://github.com/rogerluan/arkana
+	// TODO: (MUNEER) Store your keys and secrets away from your source code ,use Arkana keys : https://github.com/rogerluan/arkana
 	var apiKey: String {
 		switch self {
 		case .development:

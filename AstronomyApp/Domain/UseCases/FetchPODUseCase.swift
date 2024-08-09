@@ -9,7 +9,7 @@ import Combine
 import Foundation
 
 protocol FetchPODUseCase {
-    func execute(date: Date) -> AnyPublisher<PODData, APIError>
+    func execute(date: Date) -> AnyPublisher<PODData, AppError>
 }
 
 final class FetchPODUseCaseLive: FetchPODUseCase {
@@ -19,7 +19,7 @@ final class FetchPODUseCaseLive: FetchPODUseCase {
         self.podRepository = podRepository
     }
 
-    func execute(date: Date) -> AnyPublisher<PODData, APIError> {
+    func execute(date: Date) -> AnyPublisher<PODData, AppError> {
         return podRepository.loadPODData(date: date)
     }
 }

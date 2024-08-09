@@ -10,5 +10,5 @@ import Combine
 
 protocol APIClient {
     @discardableResult
-    func request<Response: Decodable>(_ request: APIRequest<Response>) -> AnyPublisher<Response, APIError>
+    func request<Response: Decodable>(_ request: APIRequest<Response>) -> AnyPublisher<Response, AppError>
 }

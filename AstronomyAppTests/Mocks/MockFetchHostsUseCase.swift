@@ -10,13 +10,13 @@ import Combine
 import Foundation
 
 class MockFetchPODUseCase: FetchPODUseCase {
-    let result: Result<PODData, APIError>
+    let result: Result<PODData, AppError>
 
-    init(result: Result<PODData, APIError>) {
+    init(result: Result<PODData, AppError>) {
         self.result = result
     }
 
-    func execute(date: Date) -> AnyPublisher<PODData, APIError> {
+    func execute(date: Date) -> AnyPublisher<PODData, AppError> {
         return result.publisher.eraseToAnyPublisher()
     }
 }
@@ -26,7 +26,7 @@ extension MockFetchPODUseCase {
         return MockFetchPODUseCase(result: .success(result.toPodModel()))
     }
 
-    static func failure(error: APIError) -> MockFetchPODUseCase {
+    static func failure(error: AppError) -> MockFetchPODUseCase {
         return MockFetchPODUseCase(result: .failure(error))
     }
 }

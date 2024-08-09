@@ -74,7 +74,7 @@ class HomeViewModelTests: XCTestCase {
 
     func testFetchPODDataFailure() throws {
         let exp = XCTestExpectation(description: "TestFetchPODDataFailure")
-        viewModel = HomeViewModel(coordinator: MockHomeCoordinator(), fetchPODUseCase: MockFetchPODUseCase.failure(error: APIError.applicationError))
+        viewModel = HomeViewModel(coordinator: MockHomeCoordinator(), fetchPODUseCase: MockFetchPODUseCase.failure(error: AppError.applicationError))
 
         viewModel.fetchPodData(date: Date.now)
         let result = XCTWaiter.wait(for: [exp], timeout: 0.5)

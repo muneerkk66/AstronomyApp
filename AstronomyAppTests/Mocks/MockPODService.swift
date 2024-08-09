@@ -11,17 +11,17 @@ import Foundation
 
 // Mock class to replace the actual implementation of PODService
 final class MockPODService: PODService {
-    private let result: Result<PODResponse, APIError>
+    private let result: Result<PODResponse, AppError>
 
-    private init(result: Result<PODResponse, APIError>) {
+    private init(result: Result<PODResponse, AppError>) {
         self.result = result
     }
 
-    func fetchMediaData(date: Date) -> AnyPublisher<PODResponse, APIError> {
+    func fetchMediaData(date: Date) -> AnyPublisher<PODResponse, AppError> {
         switch result {
         case let .success(response):
             return Just(response)
-                .setFailureType(to: APIError.self)
+                .setFailureType(to: AppError.self)
                 .eraseToAnyPublisher()
 
         case let .failure(error):
@@ -36,7 +36,7 @@ extension MockPODService {
         return MockPODService(result: .success(response))
     }
 
-    static func failure(with error: APIError) -> MockPODService {
+    static func failure(with error: AppError) -> MockPODService {
         return MockPODService(result: .failure(error))
     }
 }

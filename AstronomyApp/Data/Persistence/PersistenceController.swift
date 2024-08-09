@@ -7,6 +7,8 @@
 
 import CoreData
 
+//MARK: Define a global actor that will manage tasks in a background context. All operations performed under this actor will be serialised and run on a background thread.
+
 @globalActor actor BackgroundActor: GlobalActor {
     static var shared = BackgroundActor()
 }

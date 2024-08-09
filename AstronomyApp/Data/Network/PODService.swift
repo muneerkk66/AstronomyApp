@@ -11,5 +11,5 @@ import Foundation
 protocol PODService {
     @discardableResult
     func fetchMediaData(date: Date
-    ) -> AnyPublisher<PODResponse, APIError>
+    ) -> AnyPublisher<PODResponse, AppError>
 }

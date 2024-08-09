@@ -28,7 +28,7 @@ final class PODServiceLive {
 
 extension PODServiceLive: PODService {
     func fetchMediaData(date: Date
-    ) -> AnyPublisher<PODResponse, APIError> {
+    ) -> AnyPublisher<PODResponse, AppError> {
 
         let params = [AppConstants.APODQuery.date: date.dateOnly]
 

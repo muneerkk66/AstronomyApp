@@ -15,12 +15,12 @@ final class APIClientLive: APIClient {
         self.apiEnvironment = apiEnvironment
     }
 
-    func request<Response>(_ request: APIRequest<Response>) -> AnyPublisher<Response, APIError> {
+    func request<Response>(_ request: APIRequest<Response>) -> AnyPublisher<Response, AppError> {
         do {
             let urlRequest = try request.makeRequest(using: apiEnvironment.environment)
             LogInfo("Making API request:\n\(urlRequest)")
             return URLSession.shared.dataTaskPublisher(for: urlRequest)
-                .mapError { error in APIError.serverError(error)
+                .mapError { error in AppError.serverError(error)
                 }
                 // flatMap to ignore events while it's waiting for the current network request to complete.
                 .flatMap(maxPublishers: .max(1)) { pair in
@@ -28,7 +28,7 @@ final class APIClientLive: APIClient {
                 }
                 .eraseToAnyPublisher()
         } catch {
-            let error = APIError.applicationError
+            let error = AppError.applicationError
             return Fail(error: error).eraseToAnyPublisher()
         }
     }

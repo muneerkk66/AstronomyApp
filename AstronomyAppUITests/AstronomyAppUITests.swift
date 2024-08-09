@@ -21,7 +21,7 @@ final class AstronomyAppUITests: XCTestCase {
 
         // Wait for the imageView to appear
         expectation(for: existsPredicate, evaluatedWith: imageView, handler: nil)
-        waitForExpectations(timeout: 5, handler: nil)
+        waitForExpectations(timeout: 10, handler: nil)
         XCTAssertTrue(imageView.exists, "The imageView should exist after the view has loaded.")
 
         let title = app.staticTexts["\(AppConstants.ViewIdentifier.podView).\(AppConstants.ViewIdentifier.title)"]

@@ -146,6 +146,38 @@
             endingLineNumber = "37"
             landmarkName = "loadPODData(date:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "76E0C76D-4BAA-4C28-8278-D12BE249311B - 5341d5aaf0e54afb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (AstronomyApp.APIError) -&gt; Combine.AnyPublisher&lt;AstronomyApp.PODData, AstronomyApp.APIError&gt; in AstronomyApp.PODRepositoryLive.loadPODData(date: Foundation.Date) -&gt; Combine.AnyPublisher&lt;AstronomyApp.PODData, AstronomyApp.APIError&gt;"
+                  moduleName = "AstronomyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muneerkk/Desktop/AstronomyApp/AstronomyApp/Data/Repositories/PODRepository+Live.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "76E0C76D-4BAA-4C28-8278-D12BE249311B - 5526c2955b79036d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (AstronomyApp.AppError) -&gt; Combine.AnyPublisher&lt;AstronomyApp.PODData, AstronomyApp.AppError&gt; in AstronomyApp.PODRepositoryLive.loadPODData(date: Foundation.Date) -&gt; Combine.AnyPublisher&lt;AstronomyApp.PODData, AstronomyApp.AppError&gt;"
+                  moduleName = "AstronomyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muneerkk/Desktop/AstronomyApp/AstronomyApp/Data/Repositories/PODRepository+Live.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "256">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

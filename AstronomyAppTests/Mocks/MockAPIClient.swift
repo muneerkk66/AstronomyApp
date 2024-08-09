@@ -12,24 +12,24 @@ import Network
 
 // Mock class to replace the actual implementation of APIClient
 class MockAPIClient: APIClient {
-    let result: Result<Data, APIError>
+    let result: Result<Data, AppError>
 
-    init(result: Result<Data, APIError>) {
+    init(result: Result<Data, AppError>) {
         self.result = result
     }
 
-    func request<Response>(_ request: APIRequest<Response>) -> AnyPublisher<Response, APIError> {
+    func request<Response>(_ request: APIRequest<Response>) -> AnyPublisher<Response, AppError> {
         switch result {
         case let .success(data):
             do {
                 // Decode data to the expected response type and return a publisher with the response
                 let response = try JSONDecoder().decode(Response.self, from: data)
                 return Just(response)
-                    .setFailureType(to: APIError.self)
+                    .setFailureType(to: AppError.self)
                     .eraseToAnyPublisher()
             } catch {
                 // If decoding fails, return a publisher with an APIError
-                return Fail(error: APIError.serverError(error))
+                return Fail(error: AppError.serverError(error))
                     .eraseToAnyPublisher()
             }
         case let .failure(error):
@@ -51,7 +51,7 @@ extension MockAPIClient {
         }
     }
 
-    static func failure(error: APIError) -> MockAPIClient {
+    static func failure(error: AppError) -> MockAPIClient {
         return MockAPIClient(result: .failure(error))
     }
 }
