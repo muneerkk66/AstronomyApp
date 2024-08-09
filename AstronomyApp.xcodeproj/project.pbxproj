@@ -71,6 +71,10 @@
 		0880FB0E2C6614B700F2CAAA /* MockPODHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FB0D2C6614B700F2CAAA /* MockPODHistory.swift */; };
 		0880FB102C66168000F2CAAA /* PODRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FB0F2C66168000F2CAAA /* PODRepositoryTests.swift */; };
 		0880FB142C6617D300F2CAAA /* MockPODService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FB132C6617D300F2CAAA /* MockPODService.swift */; };
+		0880FB162C66362A00F2CAAA /* AccessibilityIdentifierLeafModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FB152C66362A00F2CAAA /* AccessibilityIdentifierLeafModifier.swift */; };
+		0880FB192C66389000F2CAAA /* ParentAccessibilityBranchKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FB182C66389000F2CAAA /* ParentAccessibilityBranchKey.swift */; };
+		0880FB1B2C6638D300F2CAAA /* AccessibilityIdentifierBranchModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880FB1A2C6638D300F2CAAA /* AccessibilityIdentifierBranchModifier.swift */; };
+		0880FB1C2C663C1900F2CAAA /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083DFC422C64150000A4A75A /* AppConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -159,6 +163,9 @@
 		0880FB0D2C6614B700F2CAAA /* MockPODHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPODHistory.swift; sourceTree = "<group>"; };
 		0880FB0F2C66168000F2CAAA /* PODRepositoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PODRepositoryTests.swift; sourceTree = "<group>"; };
 		0880FB132C6617D300F2CAAA /* MockPODService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPODService.swift; sourceTree = "<group>"; };
+		0880FB152C66362A00F2CAAA /* AccessibilityIdentifierLeafModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityIdentifierLeafModifier.swift; sourceTree = "<group>"; };
+		0880FB182C66389000F2CAAA /* ParentAccessibilityBranchKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentAccessibilityBranchKey.swift; sourceTree = "<group>"; };
+		0880FB1A2C6638D300F2CAAA /* AccessibilityIdentifierBranchModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityIdentifierBranchModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -430,6 +437,7 @@
 		083DFC282C640A9500A4A75A /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				0880FB172C66386A00F2CAAA /* Accessibility */,
 				083DFC542C642C9700A4A75A /* NetworkMonitor.swift */,
 				083DFC3A2C640F8700A4A75A /* Parser.swift */,
 				083DFC382C640DC000A4A75A /* Logger.swift */,
@@ -506,6 +514,16 @@
 				0880FB132C6617D300F2CAAA /* MockPODService.swift */,
 			);
 			path = Mocks;
+			sourceTree = "<group>";
+		};
+		0880FB172C66386A00F2CAAA /* Accessibility */ = {
+			isa = PBXGroup;
+			children = (
+				0880FB182C66389000F2CAAA /* ParentAccessibilityBranchKey.swift */,
+				0880FB152C66362A00F2CAAA /* AccessibilityIdentifierLeafModifier.swift */,
+				0880FB1A2C6638D300F2CAAA /* AccessibilityIdentifierBranchModifier.swift */,
+			);
+			path = Accessibility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -646,6 +664,7 @@
 				083DFC842C64FA8500A4A75A /* PersistenceController.swift in Sources */,
 				083DFC3B2C640F8700A4A75A /* Parser.swift in Sources */,
 				083DFC722C64C07700A4A75A /* APODView.swift in Sources */,
+				0880FB162C66362A00F2CAAA /* AccessibilityIdentifierLeafModifier.swift in Sources */,
 				083DFC692C64311400A4A75A /* AppFactory.swift in Sources */,
 				083DFC622C642F8900A4A75A /* HomeCoordinatorView.swift in Sources */,
 				083DFC7B2C64C7F900A4A75A /* String+Extension.swift in Sources */,
@@ -664,7 +683,9 @@
 				083DFC352C640B6C00A4A75A /* APIClient+Live.swift in Sources */,
 				083DFC5D2C642E1400A4A75A /* Coordinator.swift in Sources */,
 				083DFC792C64C74800A4A75A /* LazyImageView.swift in Sources */,
+				0880FB192C66389000F2CAAA /* ParentAccessibilityBranchKey.swift in Sources */,
 				083DFBED2C6406E500A4A75A /* AstronomyAppApp.swift in Sources */,
+				0880FB1B2C6638D300F2CAAA /* AccessibilityIdentifierBranchModifier.swift in Sources */,
 				083DFC412C64132E00A4A75A /* PODService+Live.swift in Sources */,
 				083DFC932C64FD4F00A4A75A /* PODLocalDataSource.swift in Sources */,
 				083DFC6F2C64322200A4A75A /* HomeViewModel.swift in Sources */,
@@ -713,6 +734,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				083DFC082C6406E600A4A75A /* AstronomyAppUITests.swift in Sources */,
+				0880FB1C2C663C1900F2CAAA /* AppConstants.swift in Sources */,
 				083DFC0A2C6406E600A4A75A /* AstronomyAppUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -962,6 +984,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 75RJJCJZ3V;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.muneer.AstronomyAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -980,6 +1003,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 75RJJCJZ3V;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.muneer.AstronomyAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
