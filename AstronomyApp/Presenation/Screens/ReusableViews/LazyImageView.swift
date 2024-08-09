@@ -26,7 +26,7 @@ struct LazyImageView: View {
                             withAnimation(.easeInOut(duration: 1.0)) {
                                 isImageLoaded = true
                             }
-                        }
+                        }.accessibilityIdentifierLeaf(AppConstants.ViewIdentifier.image)
                 default:
                     Image(systemName: "photo")
                         .resizable()

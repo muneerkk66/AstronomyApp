@@ -24,6 +24,6 @@ struct DatePickerView: View {
                 onSelectDate()
             }
             .padding()
-        }.presentationDetents([.medium, .large])
+        }.presentationDetents([.medium, .large]).accessibilityIdentifier(AppConstants.ViewIdentifier.datePicker)
     }
 }

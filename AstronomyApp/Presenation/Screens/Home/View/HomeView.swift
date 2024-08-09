@@ -20,7 +20,7 @@ struct HomeView: View {
     private var sceneView: some View {
         switch viewModel.viewState {
         case .finished:
-            APODView()
+            APODView().accessibilityIdentifierBranch(AppConstants.ViewIdentifier.podView)
         case .isLoading, .idle:
             ProgressView()
         case let .error(error):

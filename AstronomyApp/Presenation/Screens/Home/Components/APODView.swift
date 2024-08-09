@@ -35,7 +35,7 @@ struct APODView: View {
         switch viewModel.podData?.type {
         case .image:
             LazyImageView(urlString: url)
-                .frame(minHeight: geometry.size.height * 0.3)
+				.frame(minHeight: geometry.size.height * 0.3)
         case .video:
             WebContentView(url: url)
                 .frame(width: geometry.size.width, height: geometry.size.height * 0.60)
@@ -52,14 +52,17 @@ struct APODView: View {
                 .fontWeight(.bold)
                 .minimumScaleFactor(0.2)
                 .foregroundColor(.primary)
+				.accessibilityIdentifierLeaf(AppConstants.ViewIdentifier.title)
 			Text((viewModel.podData?.date.displayDate).orEmpty)
                 .font(.footnote)
 				.fontWeight(.medium)
                 .foregroundColor(.primary)
 				.padding(.bottom,10)
+				.accessibilityIdentifierLeaf(AppConstants.ViewIdentifier.date)
             Text((viewModel.podData?.description).orEmpty)
                 .font(.caption)
-                .foregroundColor(.primary)
+				.foregroundColor(.primary)
+				.accessibilityIdentifierLeaf(AppConstants.ViewIdentifier.description)
         }.padding()
     }
 
@@ -77,6 +80,7 @@ struct APODView: View {
                 .shadow(radius: 4, x: 0, y: 4)
         }
         .padding()
+		.accessibilityIdentifierLeaf("calendar")
     }
 }
 
